@@ -8,10 +8,10 @@
     <div class="row">
       <div class="col-md-4 sidebar">
         <div class="avatar">
-          <img src="./assets/avatar.jpg" width="215" height="215" alt="Dang Tuan Tung" />
+          <img src="./assets/avatar.png" width="215" height="215" alt="Do Manh Hung" />
           <h1 class="name">Do Manh Hung</h1>
-          <h4 class="job">15/09/1993</h4>
-          <h4 class="job">Software Engineer</h4>
+          <h4 class="job">04/03/1995</h4>
+          <h4 class="job">Web Developer</h4>
         </div>
 
         <div class="module">
@@ -23,11 +23,15 @@
             <ul>
               <li class="flex">
                 <i class="fas fa-school circle circle--small circle--white"></i>
-                <div>Ha Noi University of Mining and Geology(2011-2016)</div><br>
+                <div>Vietnam Trade Union University(Oct 2013 > 2015)</div><br>
+              </li>
+              <li class="flex">
+                <i class="fas fa-school circle circle--small circle--white"></i>
+                <div>University of Transport Technology(Oct 2015 > Now)</div><br>
               </li>
               <li class="flex">
                 <i class="fas fa-graduation-cap circle circle--small circle--white"></i>
-                <div>Software engineering engineer</div>
+                <div>Bachelor of information technology</div>
               </li>
             </ul>
           </div>
@@ -42,23 +46,19 @@
             <ul>
               <li class="flex">
                 <i class="fa fa-map-marker circle circle--small circle--white"></i>
-                <span>Số 22, Đào Duy Từ, P.Bắc Sơn, Tam Điệp, Ninh Bình</span>
-              </li>
-              <li class="flex">
-                <i class="fab fa-linkedin circle circle--small circle--white"></i>
-                <div>www.linkedin.com/in/dang-tuantung-77275a159</div>
+                <span>Yên Bái</span>
               </li>
               <li class="flex">
                 <i class="fab fa-github circle circle--small circle--white"></i>
-                <div>https://github.com/dangtuantung1993</div>
+                <div>https://github.com/hungswifty</div>
               </li>
               <li class="flex">
                 <i class="fas fa-at circle circle--small circle--white"></i>
-                <div>dangtuantung150993@gmail.com</div>
+                <div>domanhhung4395@gmail.com</div>
               </li>
               <li class="flex">
                 <i class="fab fa-apple circle circle--small circle--white"></i>
-                <span>(+84) 888 666 893</span>
+                <span>(+84) 386 086 724</span>
               </li>
             </ul>
           </div>
@@ -75,7 +75,7 @@
                 <i class="fab fa-html5 circle circle--small circle--white"></i>
                 <div class="flex--1">
                   <span>HTML / CSS / JS</span>
-                  <span class="progress-bar"><span style="width:50%"></span></span>
+                  <span class="progress-bar"><span style="width:55%"></span></span>
                 </div>
               </li>
 
@@ -83,10 +83,17 @@
                 <i class="fa fa-globe circle circle--small circle--white"></i>
                 <div class="flex--1">
                   <span>Web Development</span>
-                  <span class="progress-bar"><span style="width:50%"></span></span>
-                  <p >PHP Frameworks : CI , Laravel</p>
-                  <p >NodeJS : Express</p>
+                  <span class="progress-bar"><span style="width:55%"></span></span>
+                  <p >PHP Frameworks : Laravel</p>
                   <p >Front-End: VueJS</p>
+                </div>
+              </li>
+              <li class="flex">
+                <i class="fa fa-mobile circle circle--small circle--white"></i>
+                <div class="flex--1">
+                  <span>App Development</span>
+                  <span class="progress-bar"><span style="width:45%"></span></span>
+                  <p >React Native</p>
                 </div>
               </li>
               <li class="flex">
@@ -94,8 +101,6 @@
                 <div class="flex--1">
                   <span>Database</span>
                   <span class="progress-bar"><span style="width:50%"></span></span>
-                  <p>MongoDB</p>
-                  <p>PostgreSQL</p>
                   <p>MySQL</p>
                 </div>
               </li>
@@ -110,20 +115,16 @@
           <div class="module__content">
             <ul>
               <li class="flex">
-                <i class="fab fa-bitcoin circle circle--small circle--white"></i>
-                <div>Trade Coin</div>
+                <i class="fa fa-book circle circle--small circle--white"></i>
+                <div>Learning</div>
               </li>
               <li class="flex">
                 <i class="fab fa-foursquare circle circle--small circle--white"></i>
-                <div>Forex.</div>
+                <div>Listening to music</div>
               </li>
               <li class="flex">
-                <i class="fas fa-futbol circle circle--small circle--white"></i>
-                <div>Football.</div>
-              </li>
-              <li class="flex">
-                <i class="fab fa-bitcoin circle circle--small circle--white"></i>
-                <div>Blockchain, Cryptocurrencies.</div>
+                <i class="fa fa-video circle circle--small circle--white"></i>
+                <div>Watching Anime.</div>
               </li>
             </ul>
           </div>
@@ -137,37 +138,21 @@
             <span>Experience</span>
           </h2>
           <div class="section__content">
-            <div class="module">
-              <h3 class="module__title">
-                <i class="fa fa-globe circle circle--medium"></i>
-                <span>Website Manager MICCO - BAC TRUNG BO MINING CHEMICAL INDUSTRY COMPANY LIMITED</span></h3>
-              <div class="module__meta">
-                  <span><i class="fa fa-building-o"></i>bactrungbomicco.com.vn</span>
-                  <span><i class="fa fa-calendar"></i>20 NOV 2017 -1 MAR 2019 </span>
-              </div>
-              <div class="module__content">
-                <ul class="title title-margin">
-                <li>- Building, website design bactrungbomicco.com.vn</li>
-                <li>- Website : <a href="http://bactrungbomicco.com.vn">MICCO - BAC TRUNG BO MINING CHEMICAL INDUSTRY COMPANY LIMITED </a>
-                </li>
-                </ul>
-              </div>
-            </div><!-- End .module #4 -->
+            
           </div><!-- End .section__content -->
         </div><!-- End .section #1 -->
         <div class="section__content">
             <div class="module">
               <h3 class="module__title">
                 <i class="fa fa-globe circle circle--medium"></i>
-                <span>Completed the course FullStack NodeJS Techmaster 2018</span></h3>
+                <span>T3h Education</span></h3>
               <div class="module__meta">
-                  <span><i class="fa fa-building-o"></i>https://techmaster.vn</span>
-                  <span><i class="fa fa-calendar"></i>1 Jan 2018 - 1 Aug 2018 </span>
+                  <span><i class="fa fa-building-o"></i>https://t3h.edu.vn</span>
+                  <span><i class="fa fa-calendar"></i>JUN 2018 > DEC 2018 </span>
               </div>
               <div class="module__content">
                 <ul class="title title-margin">
-                <li>- Frontend : VueJS</li>
-                <li>- Backend : Node Js
+                <li>- Developing website using PHP and MySQL</li>
                 </li>
                 </ul>
               </div>
@@ -177,7 +162,7 @@
             <div class="module">
               <h3 class="module__title">
                 <i class="fa fa-globe circle circle--medium"></i>
-                <span>Backend + Frontend Connectiv VIỆT NAM</span></h3>
+                <span>Backend + Frontend Connectiv VN</span></h3>
               <div class="module__meta">
                   <span><i class="fa fa-building-o"></i>https://connectiv.jp/connectiv-vietnam/</span>
                   <span><i class="fa fa-calendar"></i>1 APR 2019 - Current </span>
@@ -185,9 +170,9 @@
               <div class="module__content">
                 <ul class="title title-margin">
 
-                <li>- Frontend : Creat UI website (VueJS)</li>
-                <li>- Backend : Build chat function similar to Facebook message(Chat realtime, create chat room,notify, add edit delete message, send picture and file) using Node JS (Socket IO), PHP laravel <br>
-                                Buid payment function using the payment gateaway Paid.jp (Node js)
+                <li>- Frontend : Creating UI website (VueJS)</li>
+                <li>- Backend : Building Admin functions  <br>
+                                Building some user functions such as read mail, block user
                 </li>
                 
                 <li>- Website : <a href="https://afternext.work">https://afternext.work</a></li>
@@ -201,44 +186,7 @@
             <i class="fas fa-project-diagram circle circle--large"></i>
             <span>Side projects</span>
           </h2>
-          <div class="section__content">
-            <div class="module">
-              <h3 class="module__title">
-                <i class="fa fa-globe circle circle--medium"></i>
-                <span>Website</span></h3>
-              <div class="module__content">
-                <ul>
-                  <li class="flex">
-                    <i class="fa fa-globe circle circle--small circle--white"></i>
-                    <div>Website Check Wallet using NodeJS + VueJs (Incomplete)</div>
 
-                  </li>
-                  <li class="flex">- https://datu.netlify.com/</li>
-
-                </ul>
-
-              </div>
-            </div><!-- End .module #4 -->
-          </div><!-- End .section__content -->
-          <div class="section__content">
-            <div class="module">
-              <h3 class="module__title">
-                <i class="fa fa-globe circle circle--medium"></i>
-                <span>Website</span></h3>
-              <div class="module__content">
-                <ul>
-                  <li class="flex">
-                    <i class="fa fa-globe circle circle--small circle--white"></i>
-                    <div>Website General Department of Customs</div>
-
-                  </li>
-                  <li class="flex">-http://hqportal.stc.vn/</li>
-
-                </ul>
-
-              </div>
-            </div><!-- End .module #4 -->
-          </div>
           <div class="section__content">
             <div class="module">
               <h3 class="module__title">
@@ -268,20 +216,14 @@
                   <li class="flex">
                     <i class="fa fa-globe circle circle--small circle--white"></i>
                     <div>Some other personal projects</div>
-
                   </li>
-                  <li class="flex">- http://nhipcaubonsai.com</li>
-                  <li class="flex">- https://domucmayin368.com</li>
-                  <li class="flex">- http://phongbvb.com</li>
-                  
-
                 </ul>
 
               </div>
             </div><!-- End .module #4 -->
           </div>
           <!-- End .section #1 -->
-        <div class="section">
+        <div class="section" style="margin-left:0;">
           <h2 class="section__title">
             <i class="fa fa-briefcase circle circle--large"></i>
             <span>Other skill</span>
@@ -297,8 +239,6 @@
                 <li>- Ability to withstand work pressure</li>
                 <li>- Solidarity, honesty.</li>
                 <li>- Ability to manage work effectively and clearly.</li>
-                <li>- Proficient use Git, docker.</li>
-                <li>- proficient use of cryptocurrency wallets, bitcoin, eth ....</li>
                 </ul>
               </div>
             </div><!-- End .module #4 -->
@@ -306,7 +246,7 @@
         </div><!-- End .section #1 -->
         <div class="section">
           </div><!-- End .section #2 -->
-        <div class="section">
+        <div class="section" style="margin-left:0">
             <h2 class="section__title">
               <i class="fa fa-briefcase circle circle--large"></i>
               <span>Career Objectives</span>
@@ -315,9 +255,9 @@
               <div class="module">
                 <div class="module__content">
                   <ul  class="title">
-                    <li>- Technical skills: Blockchain technologies, Cloud services (AWS, GAE, …), Linux, Software Development Life Cycles, Distributed programming, Serviced oriented programming</li>
+                    <!-- <li>- Technical skills:  Software Development Life Cycles, Distributed programming, Serviced oriented programming</li>  
                     <li>- Soft skills: foreign language, presentation skills, teamwork skills</li>
-                    <li>- Become Technical Leader or Project Manager with high performance and professional style.</li>
+                    <li>- Become Technical Leader or Project Manager with high performance and professional style.</li> -->
                     
                   </ul>
                 </div>
@@ -451,7 +391,7 @@ export default {
   /* Global Layout */
 
   .sidebar {
-    background: #37474f;
+    background-image: linear-gradient(141deg, #82f3c0 0%, #2abaca 51%, #1491c0 75%);
     color: #fff;
     padding-right: 0px!important;
   }
@@ -461,11 +401,10 @@ export default {
     width:100%;
     text-align: center;
     padding: 60px 0;
-    background: #263238;
   }
   .avatar img {
     border-radius: 50%;
-    border: 5px solid rgba(255, 255, 255, .1);
+    border: 5px double rgba(1, 28, 1, 0.1)
   }
   .avatar h1 {
     font-size: 32px;

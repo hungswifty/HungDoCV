@@ -1,4 +1,4 @@
-# tungcv
+# HungCV
 
 ## Project setup
 ```
