@@ -9,7 +9,7 @@
       <div class="col-md-4 sidebar">
         <div class="avatar">
           <img src="./assets/avatar.jpg" width="215" height="215" alt="Dang Tuan Tung" />
-          <h1 class="name">Dang Tuan Tung</h1>
+          <h1 class="name">Do Manh Hung</h1>
           <h4 class="job">15/09/1993</h4>
           <h4 class="job">Software Engineer</h4>
         </div>
