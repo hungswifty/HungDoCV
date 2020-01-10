@@ -456,7 +456,6 @@ export default {
     background-color: linear-gradient(120deg, #3d80bb, #9377aa, #d387a0);
     color: #fff;
     padding-right: 0px!important; 
-    transition: all 1.2s;
   }
 
   /* Avatar */
