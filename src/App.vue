@@ -9,7 +9,7 @@
     <div class="row">
       <div class="col-md-4 sidebar pd-top-300">
         <div class="avatar">
-          <img class="img-fluid" id="myAvatar" src="./assets/avatar.png" width="35%" alt="Do Manh Hung" />
+          <img class="img-fluid" id="myAvatar" src="./assets/hungCV.png" width="35%" alt="Do Manh Hung" />
           <h1 class="name">Do Manh Hung</h1>
           <h4 class="job">04/03/1995</h4>
           <h4 class="job">Web Developer</h4>
@@ -58,7 +58,7 @@
                 <div>domanhhung4395@gmail.com</div>
               </li>
               <li class="flex">
-                <i class="fab fa-apple circle circle--small circle--white"></i>
+                <i class="fa fa-mobile circle circle--small circle--white"></i>
                 <span>(+84) 386 086 724</span>
               </li>
             </ul>
@@ -134,9 +134,9 @@
       <div class="col-md-8 content">
         <div class="">
         <div class="section">
-          <h2 class="module__content">
+          <h2 class="module">
             <i class="fas fa-business-time circle circle--large"></i>
-            <span>Experience</span>
+            <span class="font-weight-bold">EXPERIENCE</span>
           </h2>
           <div class="section__content">
             
@@ -153,7 +153,7 @@
               </div>
               <div class="module__content">
                 <ul class="title title-margin">
-                <li>- Developing website using PHP and MySQL</li>
+                <li>• Developing website using PHP and MySQL</li>
                 </ul>
               </div>
             </div><!-- End .module #4 -->
@@ -170,12 +170,12 @@
               <div class="module__content">
                 <ul class="title title-margin">
 
-                <li>- Frontend : Creating UI website (VueJS)</li>
-                <li>- Backend : Building Admin functions  <br>
+                <li>• Frontend : Creating UI website (VueJS)</li>
+                <li>• Backend : Building Admin functions  <br>
                                 Building some user functions such as read mail, block user
                 </li>
                 
-                <li>- Website : <a href="https://afternext.work">https://afternext.work</a></li>
+                <li>• Website : <a href="https://afternext.work">https://afternext.work</a></li>
                 </ul>
               </div>
             </div><!-- End .module #4 -->
@@ -185,7 +185,7 @@
         <div class="section">
           <h2 class="section__title">
             <i class="fas fa-project-diagram circle circle--large"></i>
-            <span>Side projects</span>
+            <span class="font-weight-bold">Side projects</span>
           </h2>
 
           <div class="section__content">
@@ -200,7 +200,7 @@
                     <div>Website</div>
 
                   </li>
-                  <li class="flex">- https://afternext.work/</li>
+                  <li class="flex">• https://afternext.work/</li>
 
                 </ul>
 
@@ -227,19 +227,19 @@
         <div class="section" style="margin-left:0;">
           <h2 class="section__title">
             <i class="fa fa-briefcase circle circle--large"></i>
-            <span>Other skill</span>
+            <span class="font-weight-bold">Other skill</span>
           </h2>
           <div class="section__content">
             <div class="module">
               <div class="module__content">
                 <ul class="title">
 
-                <li>- Teamwork or independent skills.</li>
-                <li>- Read the document and follow the request.­</li>
-                <li>- High sense of responsibility at work.</li>
-                <li>- Ability to withstand work pressure</li>
-                <li>- Solidarity, honesty.</li>
-                <li>- Ability to manage work effectively and clearly.</li>
+                <li>• Teamwork or independent skills.</li>
+                <li>• Read the document and follow the request.­</li>
+                <li>• High sense of responsibility at work.</li>
+                <li>• Ability to withstand work pressure</li>
+                <li>• Solidarity, honesty.</li>
+                <li>• Ability to manage work effectively and clearly.</li>
                 </ul>
               </div>
             </div><!-- End .module #4 -->
@@ -250,15 +250,15 @@
         <div class="section" style="margin-left:0">
             <h2 class="section__title">
               <i class="fa fa-briefcase circle circle--large"></i>
-              <span>Career Objectives</span>
+              <span class="font-weight-bold">Career Objectives</span>
             </h2>
             <div class="section__content">
               <div class="module">
                 <div class="module__content">
                   <ul  class="title">
-                    <!-- <li>- Technical skills:  Software Development Life Cycles, Distributed programming, Serviced oriented programming</li>  
-                    <li>- Soft skills: foreign language, presentation skills, teamwork skills</li>
-                    <li>- Become Technical Leader or Project Manager with high performance and professional style.</li> -->
+                    <!-- <li>• Technical skills:  Software Development Life Cycles, Distributed programming, Serviced oriented programming</li>  
+                    <li>• Soft skills: foreign language, presentation skills, teamwork skills</li>
+                    <li>• Become Technical Leader or Project Manager with high performance and professional style.</li> -->
                     
                   </ul>
                 </div>
@@ -445,7 +445,7 @@ export default {
   /* Global Layout */
 
   .sidebar {
-    background-image: linear-gradient(141deg, #82f3c0 0%, #2abaca 51%, #1491c0 75%);
+    background-image: linear-gradient(120deg, #3d80bb, #9377aa, #d387a0);
     color: #fff;
     padding-right: 0px!important;
   }
@@ -564,7 +564,7 @@ export default {
     padding-left: 74px;
   }
   .content{
-    padding-top: 70px;
+    padding-top: 30px;
   }
   .content .module:not(:first-child) {
     margin-top: 50px;
@@ -651,7 +651,7 @@ export default {
       font-size:24px;
     }
     .module__title span{
-      font-size: 20px;
+      font-size: 30px;
     }
     body{
       font-size:14px!important;
