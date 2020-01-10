@@ -287,7 +287,7 @@ export default {
   },
   methods: {
     myMove() {
-      var element = document.getElementById("myAvatar");   
+      var element = document.getElementById("myAvatar");
       var pos = 0;
       var id = setInterval(frame, 0.5);
       function frame() {
@@ -311,7 +311,15 @@ export default {
     fadeInText() {
       $(window).on("load",function() {
         $(window).scroll(function() {
+          
           var windowBottom = $(this).scrollTop() + $(this).innerHeight();
+          
+          if($(this).scrollTop() > 130){
+            $('.sidebar').css("background-image", "linear-gradient(120deg, #43c6ac, #191654)");
+          } else {
+            $('.sidebar').css("background-image", "linear-gradient(120deg, #3d80bb, #9377aa, #d387a0)");
+          }
+
           $(".module").each(function() {
             /* Check the location of each desired element */
             var objectBottom = $(this).offset().top + $(this).outerHeight();
@@ -445,9 +453,10 @@ export default {
   /* Global Layout */
 
   .sidebar {
-    background-image: linear-gradient(120deg, #3d80bb, #9377aa, #d387a0);
+    background-color: linear-gradient(120deg, #3d80bb, #9377aa, #d387a0);
     color: #fff;
-    padding-right: 0px!important;
+    padding-right: 0px!important; 
+    transition: all 1.2s;
   }
 
   /* Avatar */
