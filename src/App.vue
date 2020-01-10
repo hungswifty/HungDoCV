@@ -5,10 +5,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    
     <div class="row">
-      <div class="col-md-4 sidebar">
+      <div class="col-md-4 sidebar pd-top-300">
         <div class="avatar">
-          <img src="./assets/avatar.png" width="215" height="215" alt="Do Manh Hung" />
+          <img class="img-fluid" id="myAvatar" src="./assets/avatar.png" width="35%" alt="Do Manh Hung" />
           <h1 class="name">Do Manh Hung</h1>
           <h4 class="job">04/03/1995</h4>
           <h4 class="job">Web Developer</h4>
@@ -131,16 +132,16 @@
         </div>
       </div>
       <div class="col-md-8 content">
-        <div class="col-md-12 ">
+        <div class="">
         <div class="section">
-          <h2 class="section__title">
+          <h2 class="module__content">
             <i class="fas fa-business-time circle circle--large"></i>
             <span>Experience</span>
           </h2>
           <div class="section__content">
             
           </div><!-- End .section__content -->
-        </div><!-- End .section #1 -->
+        
         <div class="section__content">
             <div class="module">
               <h3 class="module__title">
@@ -153,7 +154,6 @@
               <div class="module__content">
                 <ul class="title title-margin">
                 <li>- Developing website using PHP and MySQL</li>
-                </li>
                 </ul>
               </div>
             </div><!-- End .module #4 -->
@@ -162,7 +162,7 @@
             <div class="module">
               <h3 class="module__title">
                 <i class="fa fa-globe circle circle--medium"></i>
-                <span>Backend + Frontend Connectiv VN</span></h3>
+                <span>Connectiv VN</span></h3>
               <div class="module__meta">
                   <span><i class="fa fa-building-o"></i>https://connectiv.jp/connectiv-vietnam/</span>
                   <span><i class="fa fa-calendar"></i>1 APR 2019 - Current </span>
@@ -180,6 +180,7 @@
               </div>
             </div><!-- End .module #4 -->
           </div><!-- End .section__content -->
+        </div>
         </div>
         <div class="section">
           <h2 class="section__title">
@@ -272,12 +273,62 @@
 </template>
 
 <script>
+import $ from 'jquery';
 
 export default {
+  
   name: 'app',
   components: {
 
+  },
+  mounted: function() {
+    this.myMove();
+    this.fadeInText();
+  },
+  methods: {
+    myMove() {
+      var element = document.getElementById("myAvatar");   
+      var pos = 0;
+      var id = setInterval(frame, 0.5);
+      function frame() {
+        if (pos == 140) {
+          clearInterval(id);
+        } else {
+          pos++; 
+          element.style.top = pos + "px"; 
+          if (pos == 0){
+            element.style.opacity = 0;
+          } else if (pos <= 30){
+            element.style.opacity = 0.3;
+          } else if  (pos <= 60){
+            element.style.opacity = 0.6;
+          } else {
+            element.style.opacity = 1;
+          }
+        }
+      }
+    },
+    fadeInText() {
+      $(window).on("load",function() {
+        $(window).scroll(function() {
+          var windowBottom = $(this).scrollTop() + $(this).innerHeight();
+          $(".module").each(function() {
+            /* Check the location of each desired element */
+            var objectBottom = $(this).offset().top + $(this).outerHeight();
+            
+            /* If the element is completely within bounds of the window, fade it in */
+            if (objectBottom < windowBottom) { //object comes into view (scrolling down)
+              if ($(this).css("opacity")==0) {$(this).fadeTo(500,1);}
+            } else { //object goes out of view (scrolling up)
+              if ($(this).css("opacity")==1) {$(this).fadeTo(500,0);}
+            }
+          });
+        }).scroll(); //invoke scroll-handler on page-load
+      });
+    }
+  
   }
+
 }
 </script>
 
@@ -361,6 +412,9 @@ export default {
   p {
     margin: 0 0 10px;
   }
+  .pd-top-300 {
+    padding-top: 350px;
+  }
 
   /* Helper Class */
   .flex {
@@ -404,7 +458,9 @@ export default {
   }
   .avatar img {
     border-radius: 50%;
-    border: 5px double rgba(1, 28, 1, 0.1)
+    border: 5px double rgba(1, 28, 1, 0.1);
+    left: 33%;
+    position: absolute;
   }
   .avatar h1 {
     font-size: 32px;
@@ -541,7 +597,7 @@ export default {
   }
   @media  (max-width: 1024px){
     .section:not(.last-child){
-      margin-left: 0px;
+      margin-left: 15px;
     }
   }
   @media  (max-width: 942px){
