@@ -47,7 +47,7 @@
             <ul>
               <li class="flex">
                 <i class="fa fa-map-marker circle circle--small circle--white"></i>
-                <span>Yên Bái</span>
+                <span>Hà Nội</span>
               </li>
               <li class="flex">
                 <i class="fab fa-github circle circle--small circle--white"></i>
