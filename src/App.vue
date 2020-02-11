@@ -283,7 +283,7 @@ export default {
   },
   mounted: function() {
     this.myMove();
-    this.fadeInText();
+    // this.fadeInText();
   },
   methods: {
     myMove() {
