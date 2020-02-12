@@ -256,9 +256,9 @@
               <div class="module">
                 <div class="module__content">
                   <ul  class="title">
-                    <!-- <li>• Technical skills:  Software Development Life Cycles, Distributed programming, Serviced oriented programming</li>  
-                    <li>• Soft skills: foreign language, presentation skills, teamwork skills</li>
-                    <li>• Become Technical Leader or Project Manager with high performance and professional style.</li> -->
+                    <li>• Working in a professional, active and fairly competitive working environment and having opportunities to get promotion.</li>
+                    <li>• Always improve myself and learn new skills while on the job.In the future,i want to become a valued employee of a company. Using my skills and experiences to finish my job as good as i can</li>  
+
                     
                   </ul>
                 </div>
