@@ -177,12 +177,15 @@
                 <i class="fa fa-meteor circle circle--medium"></i>
                 <span class="gradient-text">T3h Education</span></h3>
               <div class="module__meta">
-                  <span><i class="fa fa-building-o"></i>https://t3h.edu.vn</span>
+                <span><i class="fas fa-user-md"></i>Student</span>
+              </div>
+              <div class="module__meta">
+                  <span><i class="fa fa-globe"></i>https://t3h.edu.vn</span>
                   <span><i class="fa fa-calendar"></i>JUN 2018 > DEC 2018 </span>
               </div>
               <div class="module__content">
                 <ul class="title title-margin">
-                <li>• Developing website using PHP and MySQL</li>
+                <li>● Developing website using PHP and MySQL</li>
                 </ul>
               </div>
             </div><!-- End .module #4 -->
@@ -191,20 +194,38 @@
             <div class="module">
               <h3 class="module__title">
                 <i class="fa fa-meteor circle circle--medium"></i>
-                <span class="gradient-text">Connectiv VN</span></h3>
+                <span class="gradient-text">Connectiv Viet Nam</span></h3>
               <div class="module__meta">
-                  <span><i class="fa fa-building-o"></i>https://connectiv.jp/connectiv-vietnam/</span>
-                  <span><i class="fa fa-calendar"></i>1 APR 2019 - Current </span>
+                <span><i class="fas fa-user-md"></i>Web Developer</span>
+              </div>
+              <div class="module__meta">
+                <span><i class="fa fa-globe"></i>https://connectiv.jp/connectiv-vietnam/</span>
+                <span><i class="fa fa-calendar"></i>SEP 2019 - Current </span>
               </div>
               <div class="module__content">
+                <h4>
+                  <span class="gradient-text">
+                    <i class="fas fa-star circle circle--small"></i>
+                    Freak Project (Sep 2019 -  Nov 2019)
+                  </span>
+                </h4>
                 <ul class="title title-margin">
-
-                <li>• Frontend : Creating UI website (VueJS)</li>
-                <li>• Backend : Building Admin functions  <br>
-                                Building some user functions such as read mail, block user
-                </li>
-                
-                <li>• Website : <a href="https://afternext.work">https://afternext.work</a></li>
+                  <li>● Description: Recruitment website</li>
+                  <li>● Frontend: Creating admin interface and edit interface as required (VueJS)</li>
+                  <li>● Backend: Building Admin functions and some company function such as preview, send mail, apply,... (Laravel)
+                  </li>
+                  <li>● Website: <a href="https://afternext.work">https://afternext.work</a></li>
+                </ul>
+              </div>
+              <div class="module__content">
+                <h4>
+                  <span class="gradient-text">
+                    <i class="fas fa-star circle circle--small"></i>
+                    Base Project (Nov 2019 - Feb 2020)
+                  </span>
+                </h4>
+                <ul class="title title-margin">
+                  <li>● Frontend: Creating UI for IOS/Android App (React Native)</li>
                 </ul>
               </div>
             </div><!-- End .module #4 -->
@@ -221,11 +242,11 @@
             <div class="module">
               <h3 class="module__title">
                 <i class="fa fa-meteor circle circle--medium"></i>
-                <span>Website</span></h3>
+                <span class="gradient-text">Website</span></h3>
               <div class="module__content">
                 <ul class="title title-margin">
                   <li class="">
-                    • https://afternext.work
+                    ● https://afternext.work
                   </li>
                 </ul>
               </div>
@@ -235,12 +256,12 @@
             <div class="module">
               <h3 class="module__title">
                 <i class="fa fa-meteor circle circle--medium"></i>
-                <span>Website</span></h3>
+                <span class="gradient-text">Website</span></h3>
               
               <div class="module__content">
                 <ul class="title title-margin">
                   <li class="">
-                    • Some other personal projects
+                    ● Some other personal projects
                   </li>
                 </ul>
               </div>
@@ -258,12 +279,12 @@
               <div class="module__content">
                 <ul class="title">
 
-                <li>• Teamwork or independent skills.</li>
-                <li>• Read the document and follow the request.­</li>
-                <li>• High sense of responsibility at work.</li>
-                <li>• Ability to withstand work pressure</li>
-                <li>• Solidarity, honesty.</li>
-                <li>• Ability to manage work effectively and clearly.</li>
+                <li>● Teamwork or independent skills.</li>
+                <li>● Reading the document and following the request.­</li>
+                <li>● High responsibility at work.</li>
+                <li>● Withstanding work pressure</li>
+                <li>● Solidarity, honesty.</li>
+                <li>● Managing work effectively and clearly.</li>
                 </ul>
               </div>
             </div><!-- End .module #4 -->
@@ -280,8 +301,8 @@
               <div class="module">
                 <div class="module__content">
                   <ul  class="title">
-                    <li>• Working in a professional, active and fairly competitive working environment and having opportunities to get promotion.</li>
-                    <li>• Improving myself and learn new skills while on the job unceasingly. In the future, my aim is to become a valued employee of a company. Using my skills and experiences to finish my job as good as i can</li>  
+                    <li>● Working in a professional, active and fairly competitive working environment and having opportunities to get promotion.</li>
+                    <li>● Improving myself and learn new skills while on the job unceasingly. In the future, my aim is to become a valued employee of a company. Using my skills and experiences to finish my job as good as i can</li>  
                     
                   </ul>
                 </div>
@@ -486,7 +507,7 @@ export default {
 
   /* Gradient text */
   .gradient-text{
-    
+
   }
 
   /* Avatar */
