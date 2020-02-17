@@ -307,7 +307,7 @@ export default {
   },
   mounted: function() {
     this.myMove();
-    this.fadeInText();
+    // this.fadeInText();
   },
   methods: {
     myMove() {
@@ -486,6 +486,7 @@ export default {
   }
 
   /* Gradient text */
+    /*
   .gradient-text{
     font-family:"Abril Fatface", sans-serif;
     background: linear-gradient(to right, rgb(46, 119, 184), rgb(176, 137, 185), rgb(211, 135, 160));
@@ -537,6 +538,7 @@ export default {
     50%{background-position:right}
     100%{background-position:left}
   }
+   */
 
   /* Avatar */
   .avatar {
