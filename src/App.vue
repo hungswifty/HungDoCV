@@ -4,8 +4,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-    
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css"> 
     <div class="row">
       <div class="col-md-4 sidebar pd-top-300">
         <div class="avatar">
@@ -75,34 +74,64 @@
               <li class="flex">
                 <i class="fab fa-html5 circle circle--small circle--white"></i>
                 <div class="flex--1">
-                  <span>HTML / CSS / JS</span>
+                  <span>HTML & CSS</span>
+                  <span class="progress-bar"><span style="width:70%"></span></span>
+                </div>
+              </li>
+              <li class="flex">
+                <i class="fab fa-js-square circle circle--small circle--white"></i>
+                <div class="flex--1">
+                  <span>Javascript</span>
                   <span class="progress-bar"><span style="width:55%"></span></span>
                 </div>
               </li>
-
               <li class="flex">
-                <i class="fa fa-globe circle circle--small circle--white"></i>
+                <i class="fab fa-php circle circle--small circle--white"></i>
                 <div class="flex--1">
-                  <span>Web Development</span>
+                  <span>PHP</span>
+                  <span class="progress-bar"><span style="width:65%"></span></span>
+                </div>
+              </li>
+              <li class="flex">
+                <i class="fab fa-bootstrap circle circle--small circle--white"></i>
+                <div class="flex--1">
+                  <span>Bootstrap</span>
+                  <span class="progress-bar"><span style="width:70%"></span></span>
+                </div>
+              </li>
+              <li class="flex">
+                <i class="fab fa-vuejs circle circle--small circle--white"></i>
+                <div class="flex--1">
+                  <span>VueJS</span>
                   <span class="progress-bar"><span style="width:55%"></span></span>
-                  <p >PHP Frameworks : Laravel</p>
-                  <p >Front-End: VueJS</p>
                 </div>
               </li>
               <li class="flex">
-                <i class="fa fa-mobile circle circle--small circle--white"></i>
+                <i class="fab fa-react circle circle--small circle--white"></i>
                 <div class="flex--1">
-                  <span>App Development</span>
-                  <span class="progress-bar"><span style="width:45%"></span></span>
-                  <p >React Native</p>
-                </div>
-              </li>
-              <li class="flex">
-                <i class="fas fa-database circle circle--small circle--white"></i>
-                <div class="flex--1">
-                  <span>Database</span>
+                  <span>ReactJS</span>
                   <span class="progress-bar"><span style="width:50%"></span></span>
-                  <p>MySQL</p>
+                </div>
+              </li>
+              <li class="flex">
+                <i class="fab fa-react circle circle--small circle--white"></i>
+                <div class="flex--1">
+                  <span>React Native</span>
+                  <span class="progress-bar"><span style="width:55%"></span></span>
+                </div>
+              </li>
+              <li class="flex">
+                <i class="fab fa-js circle circle--small circle--white"></i>
+                <div class="flex--1">
+                  <span>Jquery</span>
+                  <span class="progress-bar"><span style="width:50%"></span></span>
+                </div>
+              </li>
+              <li class="flex">
+                <i class="fab fa-laravel circle circle--small circle--white"></i>
+                <div class="flex--1">
+                  <span>Laravel</span>
+                  <span class="progress-bar"><span style="width:60%"></span></span>
                 </div>
               </li>
             </ul>
@@ -136,7 +165,7 @@
         <div class="section">
           <h2 class="module">
             <i class="fas fa-business-time circle circle--large"></i>
-            <span class="font-weight-bold">EXPERIENCE</span>
+            <span class="font-weight-bold gradient-text">EXPERIENCE</span>
           </h2>
           <div class="section__content">
             
@@ -145,8 +174,8 @@
         <div class="section__content">
             <div class="module">
               <h3 class="module__title">
-                <i class="fa fa-globe circle circle--medium"></i>
-                <span>T3h Education</span></h3>
+                <i class="fa fa-meteor circle circle--medium"></i>
+                <span class="gradient-text">T3h Education</span></h3>
               <div class="module__meta">
                   <span><i class="fa fa-building-o"></i>https://t3h.edu.vn</span>
                   <span><i class="fa fa-calendar"></i>JUN 2018 > DEC 2018 </span>
@@ -161,8 +190,8 @@
         <div class="section__content">
             <div class="module">
               <h3 class="module__title">
-                <i class="fa fa-globe circle circle--medium"></i>
-                <span>Connectiv VN</span></h3>
+                <i class="fa fa-meteor circle circle--medium"></i>
+                <span class="gradient-text">Connectiv VN</span></h3>
               <div class="module__meta">
                   <span><i class="fa fa-building-o"></i>https://connectiv.jp/connectiv-vietnam/</span>
                   <span><i class="fa fa-calendar"></i>1 APR 2019 - Current </span>
@@ -185,49 +214,44 @@
         <div class="section">
           <h2 class="section__title">
             <i class="fas fa-project-diagram circle circle--large"></i>
-            <span class="font-weight-bold">Side projects</span>
+            <span class="font-weight-bold gradient-text">Side projects</span>
           </h2>
 
           <div class="section__content">
             <div class="module">
               <h3 class="module__title">
-                <i class="fa fa-globe circle circle--medium"></i>
+                <i class="fa fa-meteor circle circle--medium"></i>
                 <span>Website</span></h3>
               <div class="module__content">
-                <ul>
-                  <li class="flex">
-                    <i class="fa fa-globe circle circle--small circle--white"></i>
-                    <div>Website</div>
-
+                <ul class="title title-margin">
+                  <li class="">
+                    • https://afternext.work
                   </li>
-                  <li class="flex">• https://afternext.work/</li>
-
                 </ul>
-
               </div>
             </div><!-- End .module #4 -->
           </div>
           <div class="section__content">
             <div class="module">
               <h3 class="module__title">
-                <i class="fa fa-globe circle circle--medium"></i>
+                <i class="fa fa-meteor circle circle--medium"></i>
                 <span>Website</span></h3>
+              
               <div class="module__content">
-                <ul>
-                  <li class="flex">
-                    <i class="fa fa-globe circle circle--small circle--white"></i>
-                    <div>Some other personal projects</div>
+                <ul class="title title-margin">
+                  <li class="">
+                    • Some other personal projects
                   </li>
                 </ul>
-
               </div>
+
             </div><!-- End .module #4 -->
           </div>
           <!-- End .section #1 -->
         <div class="section" style="margin-left:0;">
           <h2 class="section__title">
             <i class="fa fa-briefcase circle circle--large"></i>
-            <span class="font-weight-bold">Other skill</span>
+            <span class="font-weight-bold gradient-text">Other skill</span>
           </h2>
           <div class="section__content">
             <div class="module">
@@ -250,7 +274,7 @@
         <div class="section" style="margin-left:0">
             <h2 class="section__title">
               <i class="fa fa-briefcase circle circle--large"></i>
-              <span class="font-weight-bold">Career Objectives</span>
+              <span class="font-weight-bold gradient-text">Career Objectives</span>
             </h2>
             <div class="section__content">
               <div class="module">
@@ -282,7 +306,7 @@ export default {
 
   },
   mounted: function() {
-    this.myMove();
+    // this.myMove();
     // this.fadeInText();
   },
   methods: {
@@ -341,6 +365,9 @@ export default {
 </script>
 
 <style>
+  *{
+    cursor: default;
+  }
   html, body, div, span, applet, object, iframe,
   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
   a, abbr, acronym, address, big, cite, code,
@@ -456,6 +483,11 @@ export default {
     background-image: linear-gradient(120deg, #3d80bb, #9377aa, #d387a0);
     color: #fff;
     padding-right: 0px!important; 
+  }
+
+  /* Gradient text */
+  .gradient-text{
+
   }
 
   /* Avatar */
@@ -659,7 +691,7 @@ export default {
       font-size:24px;
     }
     .module__title span{
-      font-size: 30px;
+      font-size: 24px;
     }
     body{
       font-size:14px!important;
