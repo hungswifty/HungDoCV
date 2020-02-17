@@ -75,21 +75,21 @@
                 <i class="fab fa-html5 circle circle--small circle--white"></i>
                 <div class="flex--1">
                   <span>HTML & CSS</span>
-                  <span class="progress-bar"><span style="width:70%"></span></span>
+                  <span class="progress-bar"><span style="width:65%"></span></span>
                 </div>
               </li>
               <li class="flex">
                 <i class="fab fa-js-square circle circle--small circle--white"></i>
                 <div class="flex--1">
                   <span>Javascript</span>
-                  <span class="progress-bar"><span style="width:55%"></span></span>
+                  <span class="progress-bar"><span style="width:50%"></span></span>
                 </div>
               </li>
               <li class="flex">
                 <i class="fab fa-php circle circle--small circle--white"></i>
                 <div class="flex--1">
                   <span>PHP</span>
-                  <span class="progress-bar"><span style="width:65%"></span></span>
+                  <span class="progress-bar"><span style="width:60%"></span></span>
                 </div>
               </li>
               <li class="flex">
@@ -281,8 +281,7 @@
                 <div class="module__content">
                   <ul  class="title">
                     <li>• Working in a professional, active and fairly competitive working environment and having opportunities to get promotion.</li>
-                    <li>• Always improve myself and learn new skills while on the job.In the future,i want to become a valued employee of a company. Using my skills and experiences to finish my job as good as i can</li>  
-
+                    <li>• Improving myself and learn new skills while on the job unceasingly. In the future, my aim is to become a valued employee of a company. Using my skills and experiences to finish my job as good as i can</li>  
                     
                   </ul>
                 </div>
@@ -306,7 +305,7 @@ export default {
 
   },
   mounted: function() {
-    this.myMove();
+    // this.myMove();
     // this.fadeInText();
   },
   methods: {
@@ -487,7 +486,7 @@ export default {
 
   /* Gradient text */
   .gradient-text{
-
+    
   }
 
   /* Avatar */
