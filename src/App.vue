@@ -279,10 +279,10 @@
               <div class="module__content">
                 <ul class="title">
 
-                <li>● Teamwork or independent skills.</li>
-                <li>● Reading the document and following the request.­</li>
+                <li>● Fluent in both teamwork and independent.</li>
+                <li>● Watchful reading the document and following the request.­</li>
                 <li>● High responsibility at work.</li>
-                <li>● Withstanding work pressure</li>
+                <li>● Withstanding the high pressure work</li>
                 <li>● Solidarity, honesty.</li>
                 <li>● Managing work effectively and clearly.</li>
                 </ul>
