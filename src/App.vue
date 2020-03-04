@@ -46,7 +46,7 @@
             <ul>
               <li class="flex">
                 <i class="fas fa-school circle circle--small circle--white"></i>
-                <div>TOEIC SCORE: 750</div><br>
+                <div>TOEIC score: 750</div><br>
               </li>
             </ul>
           </div>
