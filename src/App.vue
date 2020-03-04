@@ -36,6 +36,21 @@
             </ul>
           </div>
         </div>
+        
+        <div class="module">
+          <h3 class="module__title">
+            <i class="fas fa-graduation-cap circle circle--medium"></i>
+            <span>CERTIFICATIONS</span>
+          </h3>
+          <div class="module__content">
+            <ul>
+              <li class="flex">
+                <i class="fas fa-school circle circle--small circle--white"></i>
+                <div>TOEIC SCORE: 750</div><br>
+              </li>
+            </ul>
+          </div>
+        </div>
 
         <div class="module">
           <h3 class="module__title">
