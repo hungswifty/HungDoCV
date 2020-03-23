@@ -215,7 +215,7 @@
               </div>
               <div class="module__meta">
                 <span><i class="fa fa-globe"></i>https://connectiv.jp/connectiv-vietnam/</span>
-                <span><i class="fa fa-calendar"></i>SEP 2019 - Current </span>
+                <span><i class="fa fa-calendar"></i>Jul 2019 - Current </span>
               </div>
               <div class="module__content">
                 <h4>
@@ -236,13 +236,14 @@
                 <h4>
                   <span class="gradient-text">
                     <i class="fas fa-star circle circle--small"></i>
-                    Base Project (Nov 2019 - Feb 2020)
+                    Base Project and Stair project (Nov 2019 - March 2020)
                   </span>
                 </h4>
                 <ul class="title title-margin">
                   <li>● Frontend: Creating UI for IOS/Android App (React Native)</li>
                 </ul>
               </div>
+              
             </div><!-- End .module #4 -->
           </div><!-- End .section__content -->
         </div>
