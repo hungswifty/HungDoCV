@@ -343,7 +343,7 @@ export default {
   },
   mounted: function() {
     this.myMove();
-    // this.fadeInText();
+    this.fadeInText();
   },
   methods: {
     myMove() {
@@ -521,6 +521,58 @@ export default {
     padding-right: 0px!important; 
   }
 
+  /* Gradient text */
+  .gradient-text{
+    font-family:"Abril Fatface", sans-serif;
+    background: linear-gradient(to right, rgb(46, 119, 184), rgb(176, 137, 185), rgb(211, 135, 160));
+    background-size: 200% 200%;
+    animation: rainbow 0.8s ease-in-out infinite;
+    background-clip: text;
+    -webkit-background-clip:text;
+    color:rgba(0,0,0,1);
+    /* font-size:10rem; */
+    /* width:80vw; */
+    /* margin:30vh auto; */
+    /* display:block; */
+    text-align:center;
+    transition: color .2s ease-in-out;
+    text-transform:uppercase;
+    font-weight:100;
+  }
+  .gradient-text:hover{
+    color:rgba(0,0,0,0);
+  }
+  @keyframes rainbow { 
+    0%{background-position:left}
+    50%{background-position:bottom}
+    100%{background-position:left}
+  }
+
+  li{
+    font-family:"Abril Fatface", sans-serif;
+    background: linear-gradient(to right, rgb(118, 194, 179), rgb(79, 74, 150));
+    background-size: 200% 200%;
+    animation: rainbow 1s ease-in-out infinite;
+    background-clip: text;
+    -webkit-background-clip:text;
+    /* color:rgba(0,0,0,1); */
+    /* font-size:10rem; */
+    /* width:80vw; */
+    /* margin:30vh auto; */
+    /* display:block; */
+    /* text-align:center; */
+    transition: color .2s ease-in-out;
+    /* text-transform:uppercase; */
+    /* font-weight:100; */
+  }
+  li:hover{
+    color:rgba(0,0,0,0);
+  }
+  @keyframes rainbow { 
+    0%{background-position:left}
+    50%{background-position:right}
+    100%{background-position:left}
+  }
 
   /* Avatar */
   .avatar {
