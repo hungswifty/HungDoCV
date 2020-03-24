@@ -239,7 +239,7 @@
           <div class="section">
             <h2 class="module">
               <i class="fas fa-business-time circle circle--medium"></i>
-              <span class="font-weight-bold gradient-text">EXPERIENCE</span>
+              <span class="font-weight-bold gradient-text">EXPERIENCES</span>
             </h2>
             <div class="section__content"></div>
             <!-- End .section__content -->
