@@ -36,7 +36,6 @@
           />
           <h2 class="name">Do Manh Hung</h2>
           <h4 class="job">04/03/1995</h4>
-          <h4 class="job">Web Developer</h4>
         </div>
 
         <div class="module">
@@ -275,7 +274,7 @@
                     </li>
                     <li>
                       ● Backend: Building admin functions and some of company
-                      functions such as preview, sending mail, applying ,... (Laravel)
+                      functions such as preview, sending mail, applying,... (Laravel)
                     </li>
                     <li>
                       ● Website:
@@ -353,7 +352,7 @@
                                 Using VueJS to create admin interface
                   </li>
                   <li>
-                    ● Backend: Building API such as login, forgot password, creating new post, editing, etc. 
+                    ● Backend: Building API such as login, forgotten password, creating new post, editing, etc. 
                   </li>
                 </ul>
               </div>
@@ -1013,6 +1012,9 @@ a {
   }
   .module__title span {
     font-size: 18px;
+  }
+  i.fa-star{
+    display: none;
   }
   body {
     font-size: 14px !important;
