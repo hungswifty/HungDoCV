@@ -248,29 +248,6 @@
               <div class="module">
                 <h3 class="module__title">
                   <i class="fa fa-meteor circle circle--small"></i>
-                  <span class="gradient-text">T3h Education</span>
-                </h3>
-                <div class="module__meta">
-                  <span><i class="fas fa-user-md"></i>Student</span>
-                </div>
-                <div class="module__meta">
-                  <span><i class="fa fa-globe"></i>https://t3h.edu.vn</span>
-                  <span
-                    ><i class="fa fa-calendar"></i>JUN 2018 > DEC 2018
-                  </span>
-                </div>
-                <div class="module__content">
-                  <ul class="title title-margin">
-                    <li>● Developing website using PHP and MySQL</li>
-                  </ul>
-                </div>
-              </div>
-              <!-- End .module #4 -->
-            </div>
-            <div class="section__content">
-              <div class="module">
-                <h3 class="module__title">
-                  <i class="fa fa-meteor circle circle--small"></i>
                   <span class="gradient-text">Connectiv Viet Nam</span>
                 </h3>
                 <div class="module__meta">
@@ -293,12 +270,12 @@
                   <ul class="title title-margin">
                     <li>● Description: Recruitment website</li>
                     <li>
-                      ● Frontend: Creating admin interface and edit interface as
+                      ● Frontend: Creating admin interface and editing interface as
                       required (VueJS)
                     </li>
                     <li>
                       ● Backend: Building admin functions and some of company
-                      functions such as preview, send mail, apply,... (Laravel)
+                      functions such as preview, sending mail, applying ,... (Laravel)
                     </li>
                     <li>
                       ● Website:
@@ -319,6 +296,32 @@
                     <li>
                       ● Frontend: Creating UI for IOS/Android App (React Native)
                     </li>
+                  </ul>
+                </div>
+              </div>
+              <!-- End .module #4 -->
+            </div>
+
+                        <div class="section__content">
+              <div class="module">
+                <h3 class="module__title">
+                  <i class="fa fa-meteor circle circle--small"></i>
+                  <span class="gradient-text">T3h Education</span>
+                </h3>
+                <div class="module__meta">
+                  <span><i class="fas fa-user-md"></i>Student</span>
+                </div>
+                <div class="module__meta">
+                  <span><i class="fa fa-globe"></i>https://t3h.edu.vn</span>
+                  <span
+                    ><i class="fa fa-calendar"></i>JUN 2018 > DEC 2018
+                  </span>
+                </div>
+                <div class="module__content">
+                  <ul class="title title-margin">
+                    <li>● Description: News/E-commerce website</li>
+                    <li>● Frontend: Using HTML5, Bootstrap, JS, JQuery</li>
+                    <li>● Backend: Using PHP/Laravel framework</li>
                   </ul>
                 </div>
               </div>
@@ -350,7 +353,7 @@
                                 Using VueJS to create admin interface
                   </li>
                   <li>
-                    ● Backend: Building API such as login, forgot password, new post, edit post, etc. 
+                    ● Backend: Building API such as login, forgot password, creating new post, editing, etc. 
                   </li>
                 </ul>
               </div>
@@ -371,7 +374,7 @@
                     ● Frontend: Using HTML5, Bootstrap to create User interface and Admin interface.
                   </li>
                   <li>
-                    ● Backend: Building API such as new post, edit post,delete user, comment, etc. 
+                    ● Backend: Building API such as creating, updating post, removing user, comment, etc. 
                   </li>
                 </ul>
               </div>
@@ -388,10 +391,9 @@
               <div class="module">
                 <div class="module__content">
                   <ul class="title">
-                    <li>● Fluent in both teamwork and independent.</li>
+                    <li>● Being fluent in both teamwork and independent.</li>
                     <li>
-                      ● Watchful reading the document and following the
-                      request.­
+                      ● Reading documents and following request carefully.­
                     </li>
                     <li>● High responsibility at work.</li>
                     <li>● Withstanding the high pressure work</li>
@@ -424,7 +426,7 @@
                       promotion.
                     </li>
                     <li>
-                      ● Improving myself and learn new skills while on the job
+                      ● Improving myself and learning new skills while being on the job
                       unceasingly. In the future, my aim is to become a valued
                       employee of a company. Using my skills and experiences to
                       finish my job as good as i can
