@@ -243,6 +243,7 @@
             <h2 class="module">
               <i class="fas fa-business-time circle circle--medium"></i>
               <span class="font-weight-bold gradient-text">EXPERIENCES</span>
+              <!-- <button class="btn btn-info" id="downloadPdfBtn">To PDF</button> -->
             </h2>
             <div class="section__content"></div>
             <!-- End .section__content -->
@@ -448,15 +449,19 @@
   </div>
 </template>
 
+
 <script>
 import $ from "jquery";
+import jspdf from "jspdf";
+import html2canvas from "html2canvas";
 
 export default {
   name: "app",
-  components: {},
+  components: {
+  },
   mounted: function() {
     this.myMove();
-    // this.fadeInText();
+    this.fadeInText();
   },
   methods: {
     myMove() {
@@ -730,6 +735,74 @@ p {
 }
 
 /* Gradient text */
+.gradient-text {
+  font-family: "Abril Fatface", sans-serif;
+  background: linear-gradient(
+    to right,
+    rgb(46, 119, 184),
+    rgb(176, 137, 185),
+    rgb(211, 135, 160)
+  );
+  background-size: 200% 200%;
+  animation: rainbow 0.8s ease-in-out infinite;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: rgba(0, 0, 0, 1);
+  /* font-size:10rem; */
+  /* width:80vw; */
+  /* margin:30vh auto; */
+  /* display:block; */
+  text-align: center;
+  transition: color 0.2s ease-in-out;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+.gradient-text:hover {
+  color: rgba(0, 0, 0, 0);
+}
+@keyframes rainbow {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: bottom;
+  }
+  100% {
+    background-position: left;
+  }
+}
+
+li {
+  font-family: "Abril Fatface", sans-serif;
+  background: linear-gradient(to right, rgb(118, 194, 179), rgb(79, 74, 150));
+  background-size: 200% 200%;
+  animation: rainbow 1s ease-in-out infinite;
+  background-clip: text;
+  -webkit-background-clip: text;
+  /* color:rgba(0,0,0,1); */
+  /* font-size:10rem; */
+  /* width:80vw; */
+  /* margin:30vh auto; */
+  /* display:block; */
+  /* text-align:center; */
+  transition: color 0.2s ease-in-out;
+  /* text-transform:uppercase; */
+  /* font-weight:100; */
+}
+li:hover {
+  color: rgba(0, 0, 0, 0);
+}
+@keyframes rainbow {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
 
 /* Avatar */
 h2.name {
@@ -882,10 +955,11 @@ a {
 /*ressponsive*/
 @media (max-width: 1141px) {
   .sidebar {
-    max-width: 403px !important;
+    min-width: 470px !important;
+    max-width: 470px !important;
   }
   .content {
-    max-width: calc(100% - 403px) !important;
+    max-width: calc(100% - 470px) !important;
   }
 }
 @media (max-width: 1024px) {
@@ -899,10 +973,11 @@ a {
     margin-top: 35px;
   }
   .sidebar {
-    max-width: 355px !important;
+    min-width: 410px !important;
+    max-width: 410px !important;
   }
   .content {
-    max-width: calc(100% - 355px) !important;
+    max-width: calc(100% - 410px) !important;
   }
   .fa-github {
     padding: 0px 10px;
