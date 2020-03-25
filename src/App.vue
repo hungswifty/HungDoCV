@@ -274,7 +274,7 @@
                     </li>
                     <li>
                       ● Backend: Building admin functions and some of company
-                      functions such as preview, sending mail, applying,... (Laravel)
+                      functions such as preview, sending mail, applying, etc. (Laravel)
                     </li>
                     <li>
                       ● Website:
