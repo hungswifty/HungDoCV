@@ -59,7 +59,7 @@
                 <i
                   class="fas fa-graduation-cap circle circle--small circle--white"
                 ></i>
-                <div>Bachelor of information technology</div>
+                <div>Bachelor of Information Technology</div>
               </li>
             </ul>
           </div>
@@ -92,14 +92,18 @@
                 <i
                   class="fa fa-map-marker circle circle--small circle--white"
                 ></i>
-                <span>Hà Nội</span>
+                <span>Hanoi</span>
               </li>
               <li class="flex">
                 <i class="fab fa-github circle circle--small circle--white"></i>
                 <div>https://github.com/hungswifty</div>
               </li>
               <li class="flex">
-                <i class="fas fa-at circle circle--small circle--white"></i>
+                <i class="fas fa-envelope circle circle--small circle--white"></i>
+                <div>domanhhung4395@gmail.com</div>
+              </li>
+              <li class="flex">
+                <i class="fab fa-skype circle circle--small circle--white"></i>
                 <div>domanhhung4395@gmail.com</div>
               </li>
               <li class="flex">
