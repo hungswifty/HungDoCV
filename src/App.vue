@@ -47,12 +47,12 @@
             <ul>
               <li class="flex">
                 <i class="fas fa-school circle circle--small circle--white"></i>
-                <div>Vietnam Trade Union University(Oct 2013 > 2015)</div>
+                <div>Vietnam Trade Union University (2013 > 2015)</div>
                 <br />
               </li>
               <li class="flex">
                 <i class="fas fa-school circle circle--small circle--white"></i>
-                <div>University of Transport Technology(Oct 2015 > 2019)</div>
+                <div>University of Transport Technology (2015 > 2019)</div>
                 <br />
               </li>
               <li class="flex">
