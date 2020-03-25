@@ -258,7 +258,7 @@
                     ><i class="fa fa-globe"></i
                     >https://connectiv.jp/connectiv-vietnam/</span
                   >
-                  <span><i class="fa fa-calendar"></i>Jul 2019 - Current </span>
+                  <span><i class="fa fa-calendar"></i>JUL 2019 - Current </span>
                 </div>
                 <div class="module__content">
                   <h4>
