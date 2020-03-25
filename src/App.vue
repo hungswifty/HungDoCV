@@ -270,8 +270,7 @@
                   <ul class="title title-margin">
                     <li>● Description: Recruitment website</li>
                     <li>
-                      ● Frontend: Creating admin interface and editing interface as
-                      required (VueJS)
+                      ● Frontend: Creating admin interface as required (VueJS)
                     </li>
                     <li>
                       ● Backend: Building admin functions and some of company
