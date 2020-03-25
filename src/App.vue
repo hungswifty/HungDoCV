@@ -251,6 +251,7 @@
                 </h3>
                 <div class="module__meta">
                   <span><i class="fas fa-user-md"></i>Web Developer</span>
+                  <span><i class="fas fa-user-md"></i>App Developer</span>
                 </div>
                 <div class="module__meta">
                   <span
