@@ -304,8 +304,10 @@
                   <ul class="title title-margin">
                     <li>
                       ● Description: A web/app where student, company can
-                      connect together ● Frontend: Creating UI for IOS/Android
-                      App (React Native)
+                      connect together 
+                    </li>
+                    <li>
+                      ● Frontend: Creating UI for IOS/Android App (React Native)
                     </li>
                   </ul>
                 </div>
