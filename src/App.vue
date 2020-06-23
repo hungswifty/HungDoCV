@@ -99,7 +99,9 @@
                 <div>https://github.com/hungswifty</div>
               </li>
               <li class="flex">
-                <i class="fas fa-envelope circle circle--small circle--white"></i>
+                <i
+                  class="fas fa-envelope circle circle--small circle--white"
+                ></i>
                 <div>domanhhung4395@gmail.com</div>
               </li>
               <li class="flex">
@@ -255,8 +257,10 @@
                   <span class="gradient-text">Connectiv Viet Nam</span>
                 </h3>
                 <div class="module__meta">
-                  <span><i class="fas fa-user-md"></i>Web Developer</span>
-                  <span><i class="fas fa-user-md"></i>App Developer</span>
+                  <span><i class="fas fa-user-md"></i>PHP Developer</span>
+                  <span
+                    ><i class="fas fa-user-md"></i>React Native Developer</span
+                  >
                 </div>
                 <div class="module__meta">
                   <span
@@ -279,7 +283,8 @@
                     </li>
                     <li>
                       ● Backend: Building admin functions and some of company
-                      functions such as preview, sending mail, applying, etc. (Laravel)
+                      functions such as preview, sending mail, applying, etc.
+                      (Laravel)
                     </li>
                     <li>
                       ● Website:
@@ -293,12 +298,34 @@
                   <h4>
                     <span class="gradient-text">
                       <i class="fas fa-star circle--medium"></i>
-                      Base Project and Stair project (Nov 2019 - March 2020)
+                      Base Project and Stair project (Nov 2019 - March 1, 2020)
                     </span>
                   </h4>
                   <ul class="title title-margin">
                     <li>
+                      ● Description: A web/app where student, company can
+                      connect together ● Frontend: Creating UI for IOS/Android
+                      App (React Native)
+                    </li>
+                  </ul>
+                </div>
+                <div class="module__content">
+                  <h4>
+                    <span class="gradient-text">
+                      <i class="fas fa-star circle--medium"></i>
+                      BConnectiv project (March 1, 2020 - Now)
+                    </span>
+                  </h4>
+                  <ul class="title title-margin">
+                    <li>
+                      ● Description: Company's product
+                    </li>
+                    <li>
                       ● Frontend: Creating UI for IOS/Android App (React Native)
+                    </li>
+                    <li>
+                      ● Backend: Building API such as show user information,
+                      edit user information, block user...
                     </li>
                   </ul>
                 </div>
@@ -306,7 +333,7 @@
               <!-- End .module #4 -->
             </div>
 
-                        <div class="section__content">
+            <div class="section__content">
               <div class="module">
                 <h3 class="module__title">
                   <i class="fa fa-meteor circle circle--small"></i>
@@ -350,19 +377,21 @@
               <div class="module__content">
                 <ul class="title title-margin">
                   <li class="">
-                    ● Description: Developing a real estate website using laravel framework (Final year project)
+                    ● Description: Developing a real estate website using
+                    laravel framework (Final year project)
                   </li>
                   <li>
                     ● Frontend: Using HTML5, Bootstrap to create main site.
-                                Using VueJS to create admin interface
+                    Using VueJS to create admin interface
                   </li>
                   <li>
-                    ● Backend: Building API such as login, forgotten password, creating new post, editing, etc. 
+                    ● Backend: Building API such as login, forgotten password,
+                    creating new post, editing, etc.
                   </li>
                 </ul>
               </div>
             </div>
-            
+
             <div class="module mt-0">
               <h3 class="module__title">
                 <i class="fa fa-meteor circle circle--small"></i>
@@ -372,13 +401,16 @@
               <div class="module__content">
                 <ul class="title title-margin">
                   <li class="">
-                    ● Description: Developing a Taylor Swift's News using laravel framework
+                    ● Description: Developing a Taylor Swift's News using
+                    laravel framework
                   </li>
                   <li>
-                    ● Frontend: Using HTML5, Bootstrap to create User interface and Admin interface.
+                    ● Frontend: Using HTML5, Bootstrap to create User interface
+                    and Admin interface.
                   </li>
                   <li>
-                    ● Backend: Building API such as creating, updating post, removing user, comment, etc. 
+                    ● Backend: Building API such as creating, updating post,
+                    removing user, comment, etc.
                   </li>
                 </ul>
               </div>
@@ -416,9 +448,7 @@
           <div class="section" style="margin-left:0">
             <h2 class="section__title">
               <i class="fa fa-briefcase circle circle--medium"></i>
-              <span class="font-weight-bold gradient-text"
-                >Objectives</span
-              >
+              <span class="font-weight-bold gradient-text">Objectives</span>
             </h2>
             <div class="section__content">
               <div class="module">
@@ -430,10 +460,10 @@
                       promotion.
                     </li>
                     <li>
-                      ● Improving myself and learning new skills while being on the job
-                      unceasingly. In the future, my aim is to become a valued
-                      employee of a company. Using my skills and experiences to
-                      finish my job as good as i can
+                      ● Improving myself and learning new skills while being on
+                      the job unceasingly. In the future, my aim is to become a
+                      valued employee of a company. Using my skills and
+                      experiences to finish my job as good as i can
                     </li>
                   </ul>
                 </div>
@@ -449,19 +479,15 @@
   </div>
 </template>
 
-
 <script>
 import $ from "jquery";
-import jspdf from "jspdf";
-import html2canvas from "html2canvas";
 
 export default {
   name: "app",
-  components: {
-  },
+  components: {},
   mounted: function() {
     this.myMove();
-    this.fadeInText();
+    // this.fadeInText();
   },
   methods: {
     myMove() {
@@ -729,80 +755,12 @@ p {
 /* Global Layout */
 
 .sidebar {
-  background-image: linear-gradient(120deg, #3d80bb, #9377aa, #d387a0);
+  background-image: linear-gradient(120deg, #1657a1, #9377aa, #af4a47);
   color: #fff;
   padding-right: 0px !important;
 }
 
 /* Gradient text */
-.gradient-text {
-  font-family: "Abril Fatface", sans-serif;
-  background: linear-gradient(
-    to right,
-    rgb(46, 119, 184),
-    rgb(176, 137, 185),
-    rgb(211, 135, 160)
-  );
-  background-size: 200% 200%;
-  animation: rainbow 0.8s ease-in-out infinite;
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: rgba(0, 0, 0, 1);
-  /* font-size:10rem; */
-  /* width:80vw; */
-  /* margin:30vh auto; */
-  /* display:block; */
-  text-align: center;
-  transition: color 0.2s ease-in-out;
-  text-transform: uppercase;
-  font-weight: 100;
-}
-.gradient-text:hover {
-  color: rgba(0, 0, 0, 0);
-}
-@keyframes rainbow {
-  0% {
-    background-position: left;
-  }
-  50% {
-    background-position: bottom;
-  }
-  100% {
-    background-position: left;
-  }
-}
-
-li {
-  font-family: "Abril Fatface", sans-serif;
-  background: linear-gradient(to right, rgb(118, 194, 179), rgb(79, 74, 150));
-  background-size: 200% 200%;
-  animation: rainbow 1s ease-in-out infinite;
-  background-clip: text;
-  -webkit-background-clip: text;
-  /* color:rgba(0,0,0,1); */
-  /* font-size:10rem; */
-  /* width:80vw; */
-  /* margin:30vh auto; */
-  /* display:block; */
-  /* text-align:center; */
-  transition: color 0.2s ease-in-out;
-  /* text-transform:uppercase; */
-  /* font-weight:100; */
-}
-li:hover {
-  color: rgba(0, 0, 0, 0);
-}
-@keyframes rainbow {
-  0% {
-    background-position: left;
-  }
-  50% {
-    background-position: right;
-  }
-  100% {
-    background-position: left;
-  }
-}
 
 /* Avatar */
 h2.name {
@@ -912,7 +870,7 @@ h2.module {
 .module--progress li {
   margin-bottom: 10px;
 }
-i.fa-star{
+i.fa-star {
   color: white;
 }
 
@@ -1024,7 +982,7 @@ a {
   .module__title span {
     font-size: 18px;
   }
-  i.fa-star{
+  i.fa-star {
     display: none;
   }
   body {
