@@ -326,8 +326,8 @@
                       ● Frontend: Creating UI for IOS/Android App (React Native)
                     </li>
                     <li>
-                      ● Backend: Building API such as show user information,
-                      edit user information, block user...
+                      ● Backend: Building API such as showing user information,
+                      editing user information, blocking user...
                     </li>
                   </ul>
                 </div>
