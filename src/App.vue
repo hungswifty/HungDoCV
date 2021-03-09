@@ -145,7 +145,7 @@
                 </div>
               </li>
 			  <li class="flex">
-                <i class="fab  circle circle--small circle--white"></i>
+                <i class="fab fa-sparkles circle circle--small circle--white"></i>
                 <div class="flex--1">
                   <span>Apache Spark</span>
                   <span class="progress-bar"
@@ -251,6 +251,11 @@
       <div class="col-md-8 content">
         <div class="">
           <div class="section">
+	    <h2 class="module">
+              <i class="fas fa-business-time circle circle--medium"></i>
+              <span class="font-weight-bold gradient-text">EXPERIENCES</span>
+              <!-- <button class="btn btn-info" id="downloadPdfBtn">To PDF</button> -->
+            </h2>
 
             <!-- End .section__content -->
 			
