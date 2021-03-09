@@ -518,8 +518,8 @@ export default {
   name: "app",
   components: {},
   mounted: function() {
-    // this.myMove();
-    this.fadeInText();
+    this.myMove();
+    // this.fadeInText();
   },
   methods: {
     myMove() {
