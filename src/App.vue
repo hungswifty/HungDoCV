@@ -74,7 +74,7 @@
             <ul>
               <li class="flex">
                 <i class="fas fa-school circle circle--small circle--white"></i>
-                <div>TOEIC score: 755</div>
+                <div>TOEIC score: 815</div>
                 <br />
               </li>
             </ul>
@@ -141,6 +141,15 @@
                   <span>Javascript</span>
                   <span class="progress-bar"
                     ><span style="width:50%"></span
+                  ></span>
+                </div>
+              </li>
+			  <li class="flex">
+                <i class="fab  circle circle--small circle--white"></i>
+                <div class="flex--1">
+                  <span>Apache Spark</span>
+                  <span class="progress-bar"
+                    ><span style="width:60%"></span
                   ></span>
                 </div>
               </li>
@@ -242,13 +251,34 @@
       <div class="col-md-8 content">
         <div class="">
           <div class="section">
-            <h2 class="module">
-              <i class="fas fa-business-time circle circle--medium"></i>
-              <span class="font-weight-bold gradient-text">EXPERIENCES</span>
-              <!-- <button class="btn btn-info" id="downloadPdfBtn">To PDF</button> -->
-            </h2>
-            <div class="section__content"></div>
+
             <!-- End .section__content -->
+			
+			<div class="section__content">
+              <div class="module">
+			  
+                <h3 class="module__title">
+                  <i class="fa fa-meteor circle circle--small"></i>
+                  <span class="gradient-text">BellSystem24-HoaSao JSC</span>
+                </h3>
+                <div class="module__meta">
+                  <span><i class="fas fa-user-md"></i>Outsourcing</span>
+                </div>
+                <div class="module__meta">
+                  <span><i class="fa fa-globe"></i>https://bell24-hoasao.com/</span>
+                  <span
+                    ><i class="fa fa-calendar"></i>SEP 2020 > DEC 2020
+                  </span>
+                </div>
+                <div class="module__content">
+                  <ul class="title title-margin">
+                    <li>● Description: Developing system using Big Data technology </li>
+                    <li>● Backend: Using Scala with Apache Spark</li>
+                  </ul>
+                </div>
+				
+              </div>
+			</div>
 
             <div class="section__content">
               <div class="module">
@@ -267,7 +297,7 @@
                     ><i class="fa fa-globe"></i
                     >https://connectiv.jp/connectiv-vietnam/</span
                   >
-                  <span><i class="fa fa-calendar"></i>JUL 2019 - Current </span>
+                  <span><i class="fa fa-calendar"></i>JUL 2019 - Jun 2020 </span>
                 </div>
                 <div class="module__content">
                   <h4>
@@ -315,7 +345,7 @@
                   <h4>
                     <span class="gradient-text">
                       <i class="fas fa-star circle--medium"></i>
-                      BConnectiv project (March 1, 2020 - Now)
+                      BConnectiv project (March 1, 2020 - Jun 2020)
                     </span>
                   </h4>
                   <ul class="title title-margin">
@@ -488,7 +518,7 @@ export default {
   name: "app",
   components: {},
   mounted: function() {
-    this.myMove();
+    // this.myMove();
     this.fadeInText();
   },
   methods: {
