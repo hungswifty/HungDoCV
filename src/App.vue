@@ -144,8 +144,17 @@
                   ></span>
                 </div>
               </li>
-			  <li class="flex">
-                <i class="fab fa-sparkles circle circle--small circle--white"></i>
+	      <li class="flex">
+                <i class="fab fa-stripe-s circle circle--small circle--white"></i>
+                <div class="flex--1">
+                  <span>Scala</span>
+                  <span class="progress-bar"
+                    ><span style="width:50%"></span
+                  ></span>
+                </div>
+              </li>
+		<li class="flex">
+                <i class="fab fa-autoprefixer circle circle--small circle--white"></i>
                 <div class="flex--1">
                   <span>Apache Spark</span>
                   <span class="progress-bar"
