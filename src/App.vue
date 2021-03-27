@@ -24,971 +24,464 @@
       rel="stylesheet"
       type="text/css"
     />
-    <div class="row">
-      <div class="col-md-4 sidebar pd-top-300">
-        <div class="avatar">
-          <img
-            class="img-fluid"
-            id="myAvatar"
-            src="./assets/HungDoCV3.jpg"
-            width="35%"
-            alt="Do Manh Hung"
-          />
-          <h2 class="name">Do Manh Hung</h2>
-          <h4 class="job">04/03/1995</h4>
-        </div>
-
-        <div class="module">
-          <h3 class="module__title">
-            <i class="fas fa-graduation-cap circle circle--medium"></i>
-            <span>Education</span>
-          </h3>
-          <div class="module__content">
-            <ul>
-              <li class="flex">
-                <i class="fas fa-school circle circle--small circle--white"></i>
-                <div>Vietnam Trade Union University (2013 > 2015)</div>
-                <br />
-              </li>
-              <li class="flex">
-                <i class="fas fa-school circle circle--small circle--white"></i>
-                <div>University of Transport Technology (2015 > 2019)</div>
-                <br />
-              </li>
-              <li class="flex">
-                <i
-                  class="fas fa-graduation-cap circle circle--small circle--white"
-                ></i>
-                <div>Bachelor of Information Technology</div>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="module">
-          <h3 class="module__title">
-            <i class="fas fa-graduation-cap circle circle--medium"></i>
-            <span>CERTIFICATIONS</span>
-          </h3>
-          <div class="module__content">
-            <ul>
-              <li class="flex">
-                <i class="fas fa-school circle circle--small circle--white"></i>
-                <div>TOEIC score: 755</div>
-                <br />
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="module">
-          <h3 class="module__title">
-            <i class="fas fa-address-book circle circle--medium"></i>
-            <span>Contact</span>
-          </h3>
-          <div class="module__content">
-            <ul>
-              <li class="flex">
-                <i
-                  class="fa fa-map-marker circle circle--small circle--white"
-                ></i>
-                <span>Hanoi</span>
-              </li>
-              <li class="flex">
-                <i class="fab fa-github circle circle--small circle--white"></i>
-                <div>https://github.com/hungswifty</div>
-              </li>
-              <li class="flex">
-                <i
-                  class="fas fa-envelope circle circle--small circle--white"
-                ></i>
-                <div>domanhhung4395@gmail.com</div>
-              </li>
-              <li class="flex">
-                <i class="fab fa-skype circle circle--small circle--white"></i>
-                <div>domanhhung4395@gmail.com</div>
-              </li>
-              <li class="flex">
-                <i class="fa fa-mobile circle circle--small circle--white"></i>
-                <span>(+84) 386 086 724</span>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!-- End .module #2 -->
-
-        <div class="module module--progress">
-          <h3 class="module__title">
-            <i class="fa fa-graduation-cap circle circle--medium"></i>
-            <span>Skill</span>
-          </h3>
-          <div class="module__content">
-            <ul>
-              <li class="flex">
-                <i class="fab fa-html5 circle circle--small circle--white"></i>
-                <div class="flex--1">
-                  <span>HTML & CSS</span>
-                  <span class="progress-bar"
-                    ><span style="width:65%"></span
-                  ></span>
-                </div>
-              </li>
-              <li class="flex">
-                <i
-                  class="fab fa-js-square circle circle--small circle--white"
-                ></i>
-                <div class="flex--1">
-                  <span>Javascript</span>
-                  <span class="progress-bar"
-                    ><span style="width:50%"></span
-                  ></span>
-                </div>
-              </li>
-              <li class="flex">
-                <i class="fab fa-php circle circle--small circle--white"></i>
-                <div class="flex--1">
-                  <span>PHP</span>
-                  <span class="progress-bar"
-                    ><span style="width:60%"></span
-                  ></span>
-                </div>
-              </li>
-              <li class="flex">
-                <i
-                  class="fab fa-bootstrap circle circle--small circle--white"
-                ></i>
-                <div class="flex--1">
-                  <span>Bootstrap</span>
-                  <span class="progress-bar"
-                    ><span style="width:70%"></span
-                  ></span>
-                </div>
-              </li>
-              <li class="flex">
-                <i class="fab fa-vuejs circle circle--small circle--white"></i>
-                <div class="flex--1">
-                  <span>VueJS</span>
-                  <span class="progress-bar"
-                    ><span style="width:55%"></span
-                  ></span>
-                </div>
-              </li>
-              <li class="flex">
-                <i class="fab fa-react circle circle--small circle--white"></i>
-                <div class="flex--1">
-                  <span>ReactJS</span>
-                  <span class="progress-bar"
-                    ><span style="width:50%"></span
-                  ></span>
-                </div>
-              </li>
-              <li class="flex">
-                <i class="fab fa-react circle circle--small circle--white"></i>
-                <div class="flex--1">
-                  <span>React Native</span>
-                  <span class="progress-bar"
-                    ><span style="width:55%"></span
-                  ></span>
-                </div>
-              </li>
-              <li class="flex">
-                <i class="fab fa-js circle circle--small circle--white"></i>
-                <div class="flex--1">
-                  <span>Jquery</span>
-                  <span class="progress-bar"
-                    ><span style="width:50%"></span
-                  ></span>
-                </div>
-              </li>
-              <li class="flex">
-                <i
-                  class="fab fa-laravel circle circle--small circle--white"
-                ></i>
-                <div class="flex--1">
-                  <span>Laravel</span>
-                  <span class="progress-bar"
-                    ><span style="width:60%"></span
-                  ></span>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="module">
-          <h3 class="module__title">
-            <i class="fas fa-thumbs-up circle circle--medium"></i>
-            <span>Hobby</span>
-          </h3>
-          <div class="module__content">
-            <ul>
-              <li class="flex">
-                <i class="fa fa-book circle circle--small circle--white"></i>
-                <div>Learning</div>
-              </li>
-              <li class="flex">
-                <i
-                  class="fab fa-foursquare circle circle--small circle--white"
-                ></i>
-                <div>Listening to music</div>
-              </li>
-              <li class="flex">
-                <i class="fa fa-video circle circle--small circle--white"></i>
-                <div>Watching Anime.</div>
-              </li>
-            </ul>
-          </div>
+    
+      <div class="banner">
+        <h2 id="text">HUNG DO</h2>
+        <div class="clouds">
+          <img src="./assets/cloud1.png" style="--i:1;" />
+          <img src="./assets/cloud2.png" style="--i:2;" />
+          <img src="./assets/cloud3.png" style="--i:3;" />
+          <img src="./assets/cloud4.png" style="--i:4;" />
+          <img src="./assets/cloud5.png" style="--i:5;" />
+          <img src="./assets/cloud1.png" style="--i:10;" />
+          <img src="./assets/cloud2.png" style="--i:9;" />
+          <img src="./assets/cloud3.png" style="--i:8;" />
+          <img src="./assets/cloud4.png" style="--i:7;" />
+          <img src="./assets/cloud5.png" style="--i:6;" />
         </div>
       </div>
-      <div class="col-md-8 content">
-        <div class="">
-          <div class="section">
-            <h2 class="module">
-              <i class="fas fa-business-time circle circle--medium"></i>
-              <span class="font-weight-bold gradient-text">EXPERIENCES</span>
-              <!-- <button class="btn btn-info" id="downloadPdfBtn">To PDF</button> -->
-            </h2>
-            <div class="section__content"></div>
-            <!-- End .section__content -->
-
-            <div class="section__content">
-              <div class="module">
-                <h3 class="module__title">
-                  <i class="fa fa-meteor circle circle--small"></i>
-                  <span class="gradient-text">Connectiv Viet Nam</span>
-                </h3>
-                <div class="module__meta">
-                  <span><i class="fas fa-user-md"></i>PHP Developer</span>
-                  <span
-                    ><i class="fas fa-user-md"></i>React Native Developer</span
-                  >
-                </div>
-                <div class="module__meta">
-                  <span
-                    ><i class="fa fa-globe"></i
-                    >https://connectiv.jp/connectiv-vietnam/</span
-                  >
-                  <span><i class="fa fa-calendar"></i>JUL 2019 - Current </span>
-                </div>
-                <div class="module__content">
-                  <h4>
-                    <span class="gradient-text">
-                      <i class="fas fa-star circle--medium"></i>
-                      Freak Project (Jul 2019 - Nov 2019)
-                    </span>
-                  </h4>
-                  <ul class="title title-margin">
-                    <li>● Description: Recruitment website</li>
-                    <li>
-                      ● Frontend: Creating admin interface as required (VueJS)
-                    </li>
-                    <li>
-                      ● Backend: Building admin functions and some of company
-                      functions such as preview, sending mail, applying, etc.
-                      (Laravel)
-                    </li>
-                    <li>
-                      ● Website:
-                      <a href="https://afternext.work"
-                        >https://afternext.work</a
-                      >
-                    </li>
-                  </ul>
-                </div>
-                <div class="module__content">
-                  <h4>
-                    <span class="gradient-text">
-                      <i class="fas fa-star circle--medium"></i>
-                      Base Project and Stair project (Nov 2019 - March 1, 2020)
-                    </span>
-                  </h4>
-                  <ul class="title title-margin">
-                    <li>
-                      ● Description: A web/app where student, company can
-                      connect together 
-                    </li>
-                    <li>
-                      ● Frontend: Creating UI for IOS/Android App (React Native)
-                    </li>
-                  </ul>
-                </div>
-                <div class="module__content">
-                  <h4>
-                    <span class="gradient-text">
-                      <i class="fas fa-star circle--medium"></i>
-                      BConnectiv project (March 1, 2020 - Now)
-                    </span>
-                  </h4>
-                  <ul class="title title-margin">
-                    <li>
-                      ● Description: Company's product
-                    </li>
-                    <li>
-                      ● Frontend: Creating UI for IOS/Android App (React Native)
-                    </li>
-                    <li>
-                      ● Backend: Building API such as showing user information,
-                      editing user information, blocking user...
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <!-- End .module #4 -->
+      <section>
+        <div class="card-container">
+          <h2 class="bsinfo-label">BASIC INFORMATION</h2>
+          <!-- Card 1-->
+          <div class="card">
+            <div class="imgBx">
+              <h3 class="card-label">CONTACT</h3>
+              <img src="./assets/ts3.png" data-text="Design">
             </div>
-
-            <div class="section__content">
-              <div class="module">
-                <h3 class="module__title">
-                  <i class="fa fa-meteor circle circle--small"></i>
-                  <span class="gradient-text">T3h Education</span>
-                </h3>
-                <div class="module__meta">
-                  <span><i class="fas fa-user-md"></i>Student</span>
-                </div>
-                <div class="module__meta">
-                  <span><i class="fa fa-globe"></i>https://t3h.edu.vn</span>
-                  <span
-                    ><i class="fa fa-calendar"></i>JUN 2018 > DEC 2018
-                  </span>
-                </div>
-                <div class="module__content">
-                  <ul class="title title-margin">
-                    <li>● Description: News/E-commerce website</li>
-                    <li>● Frontend: Using HTML5, Bootstrap, JS, JQuery</li>
-                    <li>● Backend: Using PHP/Laravel framework</li>
-                  </ul>
-                </div>
+            <div class="content">
+              <div>
+                <h3>Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis officiis sunt hic! Facere possimus illo animi, quam fugit voluptates assumenda deserunt ipsa repellendus necessitatibus nisi. Tenetur dolorem dolores veritatis nostrum?</p>
+                <a href="#">Read More</a>
               </div>
-              <!-- End .module #4 -->
             </div>
-            <!-- End .section__content -->
           </div>
-        </div>
-        <div class="section">
-          <h2 class="section__title">
-            <i class="fas fa-project-diagram circle circle--medium"></i>
-            <span class="font-weight-bold gradient-text">Side projects</span>
-          </h2>
-
-          <div class="section__content">
-            <div class="module">
-              <h3 class="module__title">
-                <i class="fa fa-meteor circle circle--small"></i>
-                <span class="gradient-text">Website</span>
-              </h3>
-
-              <div class="module__content">
-                <ul class="title title-margin">
-                  <li class="">
-                    ● Description: Developing a real estate website using
-                    laravel framework (Final year project)
-                  </li>
-                  <li>
-                    ● Frontend: Using HTML5, Bootstrap to create main site.
-                    Using VueJS to create admin interface
-                  </li>
-                  <li>
-                    ● Backend: Building API such as login, forgotten password,
-                    creating new post, editing, etc.
-                  </li>
-                </ul>
+          <!-- Card 2-->
+          <div class="card">
+            <div class="imgBx">
+              <h3 class="card-label">EDUCATION</h3>
+              <img class="" src="./assets/ts2.jpg" data-text="Launch" >
+            </div>
+            <div class="content">
+              <div>
+                <h3>Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis officiis sunt hic! Facere possimus illo animi, quam fugit voluptates assumenda deserunt ipsa repellendus necessitatibus nisi. Tenetur dolorem dolores veritatis nostrum?</p>
+                <a href="#">Read More</a>
               </div>
             </div>
-
-            <div class="module mt-0">
-              <h3 class="module__title">
-                <i class="fa fa-meteor circle circle--small"></i>
-                <span class="gradient-text">Website</span>
-              </h3>
-
-              <div class="module__content">
-                <ul class="title title-margin">
-                  <li class="">
-                    ● Description: Developing a Taylor Swift's News using
-                    laravel framework
-                  </li>
-                  <li>
-                    ● Frontend: Using HTML5, Bootstrap to create User interface
-                    and Admin interface.
-                  </li>
-                  <li>
-                    ● Backend: Building API such as creating, updating post,
-                    removing user, comment, etc.
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <!-- End .module #4 -->
           </div>
-          <!-- End .section #1 -->
-          <div class="section" style="margin-left:0;">
-            <h2 class="section__title">
-              <i class="fa fa-briefcase circle circle--medium"></i>
-              <span class="font-weight-bold gradient-text">Other skills</span>
-            </h2>
-            <div class="section__content">
-              <div class="module">
-                <div class="module__content">
-                  <ul class="title">
-                    <li>● Being fluent in both teamwork and independent.</li>
-                    <li>
-                      ● Reading documents and following request carefully.­
-                    </li>
-                    <li>● High responsibility at work.</li>
-                    <li>● Withstanding the high pressure work</li>
-                    <li>● Solidarity, honesty.</li>
-                    <li>● Managing work effectively and clearly.</li>
-                  </ul>
-                </div>
-              </div>
-              <!-- End .module #4 -->
+          <!-- Card 3 -->
+          <div class="card">
+            <div class="imgBx">
+              <h3 class="card-label">CERTs</h3>
+              <img src="./assets/ts.jpg" data-text="Earn" >
             </div>
-            <!-- End .section__content -->
-          </div>
-          <!-- End .section #1 -->
-          <div class="section"></div>
-          <!-- End .section #2 -->
-          <div class="section" style="margin-left:0">
-            <h2 class="section__title">
-              <i class="fa fa-briefcase circle circle--medium"></i>
-              <span class="font-weight-bold gradient-text">Objectives</span>
-            </h2>
-            <div class="section__content">
-              <div class="module">
-                <div class="module__content">
-                  <ul class="title">
-                    <li>
-                      ● Working in a professional, active and fairly competitive
-                      working environment and having opportunities to get
-                      promotion.
-                    </li>
-                    <li>
-                      ● Improving myself and learning new skills while being on
-                      the job unceasingly. In the future, my aim is to become a
-                      valued employee of a company. Using my skills and
-                      experiences to finish my job as good as i can
-                    </li>
-                  </ul>
-                </div>
+            <div class="content">
+              <div>
+                <h3>Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis officiis sunt hic! Facere possimus illo animi, quam fugit voluptates assumenda deserunt ipsa repellendus necessitatibus nisi. Tenetur dolorem dolores veritatis nostrum?</p>
+                <a href="#">Read More</a>
               </div>
-              <!-- End .module #7 -->
             </div>
-            <!-- End .section #2 -->
           </div>
-          <!-- End .content -->
-        </div>
+        <!-- End card -->
+        
       </div>
+      <!-- SKills -->
+      <div class="skills">
+        <h2 class="skills-label">SKILLS</h2>
+        <li>
+          <h3>HTML5 & CSS</h3><span class="bar"><span class="html-css"></span></span>
+        </li>
+        <li>
+          <h3>Javascript</h3><span class="bar"><span class="js"></span></span>
+        </li>
+        <li>
+          <h3>PHP</h3><span class="bar"><span class="php"></span></span>
+        </li>
+        <li>
+          <h3>Bootstrap</h3><span class="bar"><span class="bootstrap"></span></span>
+        </li>
+        <li>
+          <h3>VueJS</h3><span class="bar"><span class="vuejs"></span></span>
+        </li>
+        <li>
+          <h3>ReactJS</h3><span class="bar"><span class="reactjs"></span></span>
+        </li>
+        <li>
+          <h3>React Native</h3><span class="bar"><span class="reactnative"></span></span>
+        </li>
+        <li>
+          <h3>Jquery</h3><span class="bar"><span class="jquery"></span></span>
+        </li>
+        <li>
+          <h3>Laravel</h3><span class="bar"><span class="laravel"></span></span>
+        </li>
+      </div>
+      </section>
     </div>
-  </div>
+
 </template>
 
 <script>
-import $ from "jquery";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
 
 export default {
   name: "app",
   components: {},
   mounted: function() {
-    this.myMove();
-    // this.fadeInText();
+    this.checkWidthToUseScrollTrigger();
+    this.flyingText();
   },
   methods: {
-    myMove() {
-      var element = document.getElementById("myAvatar");
-      var pos = 0;
-      var id = setInterval(frame, 0.5);
-      function frame() {
-        if (pos == 140) {
-          clearInterval(id);
-        } else {
-          pos++;
-          element.style.top = pos + "px";
-          if (pos == 0) {
-            element.style.opacity = 0;
-          } else if (pos <= 30) {
-            element.style.opacity = 0.3;
-          } else if (pos <= 60) {
-            element.style.opacity = 0.6;
-          } else {
-            element.style.opacity = 1;
-          }
-        }
+    checkWidthToUseScrollTrigger(){
+      if (window.matchMedia("(min-width: 850px)").matches) {
+        this.scrollAnimation();
       }
     },
-    fadeInText() {
-      $(window).on("load", function() {
-        $(window)
-          .scroll(function() {
-            var windowBottom = $(this).scrollTop() + $(this).innerHeight();
+    scrollAnimation(){
+      let tl1 = gsap.timeline({
+        scrollTrigger: {
+          trigger: "section",
+          start: "20% center",
+          end: "bottom top",
+          // markers: true,
+          scrub: true,
+          pin: true,
+        }
+      })
+      tl1.from(".bsinfo-label", { x : innerWidth * 1, opacity: 0 })
+      tl1.from(".skills-label", { x : innerWidth * -1, opacity: 0 })
+    // tl1.from(".text3", { x : innerWidth * 1, opacity: 0 })
+    // tl1.from(".logo", { y: innerHeight * 2, opacity: 0, duration: 1.5 })
 
-            if ($(this).scrollTop() > 130) {
-              $(".sidebar").css(
-                "background-image",
-                "linear-gradient(120deg, #43c6ac, #191654)"
-              );
-            } else {
-              $(".sidebar").css(
-                "background-image",
-                "linear-gradient(120deg, #3d80bb, #9377aa, #d387a0)"
-              );
-            }
+    // let tl2 = gsap.timeline({
+    //   scrollTrigger: {
+    //     trigger: ".box2",
+    //     start: "center center",
+    //     end: "bottom top",
+    //     // markers: true,
+    //     scrub: true,
+    //     pin: true,
+    //   }
+    // })
+    // tl2.from(".text4", { x : innerWidth * 1, opacity: 0 })
+    // tl2.from(".text5", { x : innerWidth * 1, opacity: 0 })
+    // tl2.from(".text6", { x : innerWidth * 1, opacity: 0 })
+    },
+    
 
-            $(".module").each(function() {
-              /* Check the location of each desired element */
-              var objectBottom = $(this).offset().top + $(this).outerHeight();
-
-              /* If the element is completely within bounds of the window, fade it in */
-              if (objectBottom < windowBottom) {
-                //object comes into view (scrolling down)
-                if ($(this).css("opacity") == 0) {
-                  $(this).fadeTo(500, 1);
-                }
-              } else {
-                //object goes out of view (scrolling up)
-                if ($(this).css("opacity") == 1) {
-                  $(this).fadeTo(500, 0);
-                }
-              }
-            });
-          })
-          .scroll(); //invoke scroll-handler on page-load
+    flyingText() {
+      let text = document.getElementById("text");
+      window.addEventListener("scroll", function() {
+        let value = window.scrollY;
+        text.style.marginBottom = value * 2 + "px";
       });
-    }
-  }
+    },
+  },
 };
 </script>
 
 <style>
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800;900&display=swap");
 * {
-  cursor: default;
-}
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
   margin: 0;
   padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
-}
-.row {
-  margin-right: 0px !important;
-}
-body {
-  line-height: 1.625;
-  font-size: 16px;
-  color: #263238;
-  font-family: "Roboto Slab", serif;
-  -webkit-font-smoothing: antialiased;
-}
-ol,
-ul {
-  list-style: none;
-}
-blockquote,
-q {
-  quotes: none;
-}
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: "";
-  content: none;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-*,
-*:before,
-*:after {
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
-img {
-  vertical-align: middle;
-  max-width: 100%;
+body{
+  overflow-x: hidden;
 }
-.module__content ul {
-  margin-top: 15px;
-  padding-left: 1px;
-}
-.module__content p {
-  padding-left: 50px;
-}
-.module__content .title li {
-  margin-bottom: 10px;
-}
-.title-margin li {
-  padding-left: 45px;
-}
-.content .module__content .flex {
-  padding-left: 50px;
-}
-.content .module__content .flex:first-child {
-  padding-left: 0px;
-}
-p {
-  margin: 0 0 10px;
-}
-.pd-top-300 {
-  padding-top: 350px;
-}
-
-/* Helper Class */
-.flex {
-  display: flex;
-  margin-bottom: 10px;
-}
-.flex i {
-  width: 30px !important;
-}
-.fa-map-marker,
-.fa-linkedin {
-  padding: 0px 10px !important;
-}
-.flex .flex--1 {
-  flex: 1;
-}
-.flex .flex--1 p {
-  padding-left: 0px;
-}
-.flex .flex--1 span {
-  padding-bottom: 10px;
-  display: block;
-}
-.flex .flex--1 span.progress-bar {
-  width: 100% !important;
-  height: 4px !important;
-}
-
-/* Global Layout */
-
-.sidebar {
-  background-image: linear-gradient(120deg, #1657a1, #9377aa, #af4a47);
-  color: #fff;
-  padding-right: 0px !important;
-}
-
-/* Gradient text */
-
-/* Avatar */
-h2.name {
-  font-size: 24px;
-}
-h4.job {
-  font-size: 18px;
-}
-.avatar {
+.banner {
+  position: relative;
   width: 100%;
-  text-align: center;
-  padding: 70px 0;
-}
-.avatar img {
-  border-radius: 50%;
-  border: 5px double rgba(1, 28, 1, 0.1);
-  left: 33%;
-  position: absolute;
-}
-h2.module {
-  font-size: 18px;
-}
-.avatar h1 {
-  font-size: 32px;
-  text-transform: uppercase;
-  margin: 25px 0 0;
-  line-height: 1;
-}
-.avatar h4 {
-  font-size: 22px;
-  margin-top: 10px;
-}
-
-/* Module */
-.sidebar .module {
-  padding: 0 45px;
-  margin-top: 50px;
-}
-.sidebar .module:last-child {
-  margin-bottom: 50px;
-}
-.module__content {
-  margin-left: 5px;
-}
-.module__title {
-  font-size: 18px;
-  text-transform: uppercase;
+  height: 100vh;
+  background: url("./assets/ts.jpg");
+  background-size: cover;
+  background-position: bottom;
   display: flex;
+  justify-content: center;
   align-items: center;
+}
+.banner #text {
+  position: relative;
+  font-size: 10em;
+  text-shadow: 2px 2px darkgrey;
+  color: #fff;
+}
+.banner .clouds {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  pointer-events: none;
+}
+.banner .clouds img {
+  position: absolute;
+  bottom: 0;
+  max-width: 100%;
+  animation: animate calc(2s * var(--i)) linear infinite;
+}
+@keyframes animate {
+  0% {
+    opacity: 0;
+    transform: scale(1);
+  }
+  25%,
+  75% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(3);
+  }
+}
+section {
+  position: relative;
+  padding: 75px 100px;
+}
+section h2 {
+  position: relative;
+  font-size: 2.5em;
   margin-bottom: 20px;
 }
-.module__meta {
-  font-size: 14px;
-  color: #90a4ae;
-  margin-bottom: 15px;
-  margin-top: 15px;
-  padding-left: 45px;
-}
-.module__meta i {
-  margin-right: 10px;
-}
-.module__meta span {
-  margin-right: 20px;
-}
-.module__title .circle {
-  margin-right: 10px;
-}
-.circle {
-  font-size: 14px;
-  color: #fff;
-  background: #263238;
-  border-radius: 50%;
-  text-align: center;
-  margin-right: 20px;
-}
-.circle.circle--large {
-  width: 60px;
-  height: 60px;
-  line-height: 60px;
-}
-.circle.circle--medium {
-  width: 42px;
-  height: 42px;
-  line-height: 42px;
-}
-.circle.circle--small {
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
-}
-.circle.circle--white {
-  background: #fff;
-  color: #263238;
-}
 
-/* Progress bar */
-.progress-bar,
-.progress-bar span {
-  height: 6px;
-  background: #fff;
-  border-radius: 6px;
-  display: block;
-}
-.progress-bar span {
-  background: #263238;
-}
-.module--progress li {
-  margin-bottom: 10px;
-}
-i.fa-star {
-  color: white;
-}
-
-/* Section */
-.section:not(.last-child) {
-  margin-bottom: 25px;
-  margin-left: 40px;
-}
-.section__title {
-  font-size: 18px;
-  text-transform: uppercase;
-  margin: 0 0 10px;
-}
-.section__content {
-  padding-left: 74px;
-}
-.content {
-  padding-top: 30px;
-}
-.content .module:not(:first-child) {
-  margin-top: 50px;
-}
-.content .module__title {
-  margin-bottom: 0;
-}
-
-/* Language */
-
-.lang__content h4 {
-  text-transform: uppercase;
-  margin-top: 15px;
-}
-a {
-  color: #00428a !important;
-}
-.content .module__content .flex i {
+/* Card */
+.card-container {
   position: relative;
-  bottom: 4px;
+  /* width: 100%; */
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 20px;
 }
-/*ressponsive*/
-@media (max-width: 1141px) {
-  .sidebar {
-    min-width: 470px !important;
-    max-width: 470px !important;
-  }
-  .content {
-    max-width: calc(100% - 470px) !important;
+.card-container h2.bsinfo-label {
+  width: 100%
+}
+.card-container .card{
+  position: relative;
+  height: 400px;
+  background: #fff;
+  display: flex;
+  width: 30%;
+  margin: 35px 0;
+}
+.card-container .card .imgBx{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #333;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+}
+.card-container .card:hover .imgBx{
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  top: -125px;
+  left: calc(50% - 75px);
+  transition: 0.5 ease-in-out;
+  background: #ff0057;
+}
+.card-container .card h3.card-label{
+  cursor: default;
+  position: absolute;
+  bottom: 15%;
+  left: 15%;
+  width: 100%;
+  font-size: 3em;
+  color: rgba(255,255,255,.05);
+  font-weight: 700;
+}
+.card-container .card .imgBx img{
+  max-width: 100px;
+  transition: 0.5s ease-in-out;
+}
+.card-container .card:hover .imgBx img{
+  max-width: 75px;
+}
+.card-container .card .content{
+  position: absolute;
+  right: 0;
+  width: calc(100% - 75px);
+  height: calc(100% - 50px);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+.card-container .card .content div{
+  height: 100%;
+  
+}
+.card-container .card .content h3{
+  margin-bottom: 5px;
+  font-size: 24px;
+}
+.card-container .card .content p{
+  height: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.card-container .card .content a{
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px 10px;
+  background: #333;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar{
+  width: 12px;
+  border-top: 30%;
+}
+::-webkit-scrollbar-thumb{
+  background:linear-gradient(340deg, rgba(2,0,36,1) 0%, rgba(119,119,119,1) 46%, rgba(229,251,255,1) 100%);
+  
+}
+
+/* Skills */
+.skills{
+  /* width: vw; */
+  background: url("./assets/ts5.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.skills h2.skills-label{
+  width:100%;
+}
+.skills li{
+  list-style-type: none;
+  margin: 20px 0;
+}
+.skills li h3{
+  color: #fff;
+  text-shadow: 2px 2px #353b48;
+}
+.bar{
+  background: #353b48;
+  display: block;
+  height: 6px;
+  border: 1px solid rgba(0,0,0,0.3);
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #2187e7b3;
+}
+.bar span{
+  height: 3px;
+  float: left;
+  background: #2187e7;
+}
+.html-css{
+  width: 75%;
+  animation: skillAnimation 5s;
+}
+.js{
+  width: 60%;
+  animation: skillAnimation 5s;
+}
+.php{
+  width: 70%;
+  animation: skillAnimation 5s;
+}
+.bootstrap{
+  width: 70%;
+  animation: skillAnimation 5s;
+}
+.vuejs{
+  width: 60%;
+  animation: skillAnimation 5s;
+}
+.reactjs{
+  width: 60%;
+  animation: skillAnimation 5s;
+}
+.reactnative{
+  width: 65%;
+  animation: skillAnimation 5s;
+}
+.jquery{
+  width: 60%;
+  animation: skillAnimation 5s;
+}
+.laravel{
+  width: 75%;
+}
+
+@keyframes skillAnimation {
+  0%{
+   width: 0;
   }
 }
-@media (max-width: 1024px) {
-  .section:not(.last-child) {
-    margin-left: 15px;
+/* Responsive */
+
+@media (max-width: 1150px ){
+  .banner #text{
+    font-size: 9em;
+  }
+  .card-container{
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+
+  }
+  .card-container .card{
+    width: 300px;
   }
 }
-@media (max-width: 942px) {
-  .sidebar .module {
-    padding: 0 10px;
-    margin-top: 35px;
+
+@media (max-width: 768px ){
+  .banner #text{
+    font-size: 7em;
   }
-  .sidebar {
-    min-width: 410px !important;
-    max-width: 410px !important;
-  }
-  .content {
-    max-width: calc(100% - 410px) !important;
-  }
-  .fa-github {
-    padding: 0px 10px;
-  }
-}
-@media (max-width: 914px) {
-  .sidebar {
-    max-width: 100% !important;
-    flex: 0px !important;
-  }
-  .content {
-    max-width: 100% !important;
-  }
-  .sidebar .module {
-    padding: 0 25px;
-  }
-  .content {
-    flex: 0px !important;
-  }
-  .content .col-md-12 {
-    padding: 0px 25px !important;
-  }
-}
-@media (max-width: 540px) {
-  .content .col-md-12,
-  .sidebar .module {
-    padding: 0px 15px 0px 15px !important;
-  }
-  .section__content {
-    padding-left: 10px;
-  }
-  .content .module__title .circle {
-    margin-right: 30px;
-  }
-  .title-margin li,
-  .module__meta,
-  .content .module__content .flex {
-    padding-left: 0px;
+  .card-container .card{
+    max-width: 300px;
+    flex-direction: column;
+    height: 100%;
+    border-radius: 10px 10px 0 0;
   }
 
-  .section__title {
-    font-size: 18px;
+  .card-container .card .imgBx{
+    position: relative;
   }
-  .module__title span {
-    font-size: 18px;
+  .card-container .card .imgBx,
+  .card-container .card:hover .imgBx{
+    width: 100%;
+    height: 200px;
+    left:0;
+    top:0;
+    border-radius: 10px 10px 0 0;
+
   }
-  i.fa-star {
-    display: none;
+
+  .card-container .card .imgBx:hover{
+    
   }
-  body {
-    font-size: 14px !important;
+  .card-container .card .imgBx img,
+  .card-container .card:hover .imgBx img{
+    max-width: 100px;
+
   }
+  .card-container .card .content{
+    position: relative;
+    widows: 100%;
+  }
+  
 }
 </style>

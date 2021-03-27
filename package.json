@@ -13,6 +13,7 @@
     "@fortawesome/vue-fontawesome": "^0.1.5",
     "bootstrap-vue": "^2.0.0-rc.14",
     "caniuse-lite": "^1.0.30001085",
+    "gsap": "^3.4.2",
     "html2canvas": "^1.0.0-rc.5",
     "jquery": "^3.4.1",
     "jspdf": "^1.5.3",
