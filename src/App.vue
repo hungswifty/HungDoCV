@@ -569,7 +569,7 @@ export default {
   components: {},
   mounted: function() {
     this.myMove();
-    //this.fadeInText();
+    this.fadeInText();
   },
   methods: {
     myMove() {
