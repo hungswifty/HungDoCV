@@ -419,7 +419,7 @@
               <div class="module">
                 <h3 class="module__title">
                   <i class="fa fa-meteor circle circle--small"></i>
-                  <span class="gradient-text">T3h Education</span>
+                  <span class="gradient-text">T3H Education</span>
                 </h3>
                 <div class="module__meta">
                   <span><i class="fas fa-user-md"></i>Student</span>
