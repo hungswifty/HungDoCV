@@ -30,7 +30,7 @@
           <img
             class="img-fluid"
             id="myAvatar"
-            src="./assets/HungDoCV3.jpg"
+            src="./assets/hungDoCVNew.jpg"
             width="35%"
             alt="Do Manh Hung"
           />
@@ -144,8 +144,10 @@
                   ></span>
                 </div>
               </li>
-	      <li class="flex">
-                <i class="fab fa-stripe-s circle circle--small circle--white"></i>
+              <li class="flex">
+                <i
+                  class="fab fa-stripe-s circle circle--small circle--white"
+                ></i>
                 <div class="flex--1">
                   <span>Scala</span>
                   <span class="progress-bar"
@@ -153,8 +155,10 @@
                   ></span>
                 </div>
               </li>
-		<li class="flex">
-                <i class="fab fa-autoprefixer circle circle--small circle--white"></i>
+              <li class="flex">
+                <i
+                  class="fab fa-autoprefixer circle circle--small circle--white"
+                ></i>
                 <div class="flex--1">
                   <span>Apache Spark</span>
                   <span class="progress-bar"
@@ -260,39 +264,69 @@
       <div class="col-md-8 content">
         <div class="">
           <div class="section">
-	    <h2 class="module">
+            <h2 class="module">
               <i class="fas fa-business-time circle circle--medium"></i>
               <span class="font-weight-bold gradient-text">EXPERIENCES</span>
               <!-- <button class="btn btn-info" id="downloadPdfBtn">To PDF</button> -->
             </h2>
 
             <!-- End .section__content -->
-			
-			<div class="section__content">
+
+            <div class="section__content">
               <div class="module">
-			  
                 <h3 class="module__title">
                   <i class="fa fa-meteor circle circle--small"></i>
-                  <span class="gradient-text">BellSystem24-HoaSao JSC</span>
+                  <span class="gradient-text">Viettel Solutions</span>
+                </h3>
+                <div class="module__meta">
+                  <span><i class="fas fa-user-md"></i>Data Engineer</span>
+                </div>
+                <div class="module__meta">
+                  <span
+                    ><i class="fa fa-globe"></i
+                    >https://solutions.viettel.vn/</span
+                  >
+                  <span><i class="fa fa-calendar"></i>Jan 2021 > Now </span>
+                </div>
+                <div class="module__content">
+                  <ul class="title title-margin">
+                    <li>
+                      ● Description: Developing system using Big Data technology
+                    </li>
+                    <li>
+                      ● Researching on building Data Lake and Data Warehouse
+                    </li>
+                    <li>● Transforming data using Apache Spark</li>
+                    <li>● Testing data quality by Deequ and Apache Spark</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="section__content">
+              <div class="module">
+                <h3 class="module__title">
+                  <i class="fa fa-meteor circle circle--small"></i>
+                  <span class="gradient-text">Viettelimex</span>
                 </h3>
                 <div class="module__meta">
                   <span><i class="fas fa-user-md"></i>Outsourcing</span>
                 </div>
                 <div class="module__meta">
-                  <span><i class="fa fa-globe"></i>https://bell24-hoasao.com/</span>
                   <span
                     ><i class="fa fa-calendar"></i>SEP 2020 > DEC 2020
                   </span>
                 </div>
                 <div class="module__content">
                   <ul class="title title-margin">
-                    <li>● Description: Developing system using Big Data technology </li>
+                    <li>
+                      ● Description: Developing system using Big Data technology
+                    </li>
                     <li>● Backend: Using Scala with Apache Spark</li>
                   </ul>
                 </div>
-				
               </div>
-			</div>
+            </div>
 
             <div class="section__content">
               <div class="module">
@@ -311,7 +345,9 @@
                     ><i class="fa fa-globe"></i
                     >https://connectiv.jp/connectiv-vietnam/</span
                   >
-                  <span><i class="fa fa-calendar"></i>JUL 2019 - Jun 2020 </span>
+                  <span
+                    ><i class="fa fa-calendar"></i>JUL 2019 - Jun 2020
+                  </span>
                 </div>
                 <div class="module__content">
                   <h4>
@@ -348,7 +384,7 @@
                   <ul class="title title-margin">
                     <li>
                       ● Description: A web/app where student, company can
-                      connect together 
+                      connect together
                     </li>
                     <li>
                       ● Frontend: Creating UI for IOS/Android App (React Native)
@@ -596,8 +632,8 @@ export default {
           })
           .scroll(); //invoke scroll-handler on page-load
       });
-    }
-  }
+    },
+  },
 };
 </script>
 
@@ -807,7 +843,6 @@ p {
 }
 
 /* Gradient text */
-
 
 /* Avatar */
 h2.name {
