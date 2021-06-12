@@ -266,7 +266,7 @@
           <div class="section">
             <h2 class="module">
               <i class="fas fa-business-time circle circle--medium"></i>
-              <span class="font-weight-bold gradient-text">EXPERIENCES</span>
+              <span class="font-weight-bold gradient-text">EXPERIENCE</span>
               <!-- <button class="btn btn-info" id="downloadPdfBtn">To PDF</button> -->
             </h2>
 
