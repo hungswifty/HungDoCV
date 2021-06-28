@@ -30,7 +30,7 @@
           <img
             class="img-fluid"
             id="myAvatar"
-            src="./assets/hungDoCVNew.jpg"
+            src="./assets/newCVpic2806.jpeg"
             width="35%"
             alt="Do Manh Hung"
           />
